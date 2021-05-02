@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Position" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Position">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="X" type="xs:short" minOccurs="0" />
+                <xs:element name="Y" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Position>
+    <ID>GopBan</ID>
+    <X>238</X>
+    <Y>134</Y>
+  </Position>
+  <Position>
+    <ID>TaoMon</ID>
+    <X>8</X>
+    <Y>121</Y>
+  </Position>
+  <Position>
+    <ID>MoRong</ID>
+    <X>917</X>
+    <Y>156</Y>
+  </Position>
+  <Position>
+    <ID>TraMon</ID>
+    <X>13</X>
+    <Y>334</Y>
+  </Position>
+  <Position>
+    <ID>TinhGio</ID>
+    <X>311</X>
+    <Y>295</Y>
+  </Position>
+  <Position>
+    <ID>TheVip</ID>
+    <X>341</X>
+    <Y>404</Y>
+  </Position>
+  <Position>
+    <ID>SoLuongTra</ID>
+    <X>731</X>
+    <Y>392</Y>
+  </Position>
+</NewDataSet>

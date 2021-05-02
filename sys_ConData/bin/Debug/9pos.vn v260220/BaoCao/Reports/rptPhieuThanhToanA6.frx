@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/23/2010 09:32:46" ReportInfo.Modified="03/13/2011 10:30:00" ReportInfo.CreatorVersion="1.0.203.0">
+  <Dictionary>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="CustID" DataType="System.String"/>
+      <Column Name="CustName" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="Address" DataType="System.String"/>
+      <Column Name="EmpID" DataType="System.String"/>
+      <Column Name="EmpName" DataType="System.String"/>
+      <Column Name="EmpID1" DataType="System.String"/>
+      <Column Name="EmpName1" DataType="System.String"/>
+      <Column Name="AreaID" DataType="System.String"/>
+      <Column Name="AreaName" DataType="System.String"/>
+      <Column Name="TableID" DataType="System.String"/>
+      <Column Name="Cost" DataType="System.Double"/>
+      <Column Name="CostAmount" DataType="System.Double"/>
+      <Column Name="VAT" DataType="System.String"/>
+      <Column Name="VATAmount" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="PaidAmount" DataType="System.Double"/>
+      <Column Name="TotalAmount" DataType="System.Double"/>
+      <Column Name="TotalPayment" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="DateCreate" DataType="System.DateTime"/>
+      <Column Name="TongCong" DataType="System.String"/>
+      <Column Name="LanIn" DataType="System.String"/>
+      <Column Name="NgayVao" DataType="System.DateTime"/>
+      <Column Name="GioVao" DataType="System.Int32"/>
+      <Column Name="PhutVao" DataType="System.Int32"/>
+      <Column Name="SoGio" DataType="System.Double"/>
+      <Column Name="NgayRa" DataType="System.DateTime"/>
+      <Column Name="GioRa" DataType="System.Int32"/>
+      <Column Name="PhutRa" DataType="System.Int32"/>
+    </TableDataSource>
+    <TableDataSource Name="Table2" ReferenceName="Data.Table2" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="DishID" DataType="System.String"/>
+      <Column Name="DishName" DataType="System.String"/>
+      <Column Name="Qty" DataType="System.Double"/>
+      <Column Name="Price" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="Amount" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="Status" DataType="System.Int32"/>
+    </TableDataSource>
+    <TableDataSource Name="Table3" ReferenceName="Data.Table3" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="MST" DataType="System.String"/>
+      <Column Name="SoTKNH" DataType="System.String"/>
+      <Column Name="TenNganHang" DataType="System.String"/>
+      <Column Name="Font" DataType="System.String"/>
+      <Column Name="Size" DataType="System.Double"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" LeftMargin="0" TopMargin="0" FirstPageSource="15" OtherPagesSource="15" Guides="234.8,566.79,234.02,567.49,234.82,565.98,383.04,381.5,383.71,565.91,237.37,404.59,403.67,431.6,430.9,485.29,488.36,566.96,236.62,566.34,236.35,403.57,405.78,427.63,429.95,484.34,487.38,236.29,566.74,234.11,564.57,258.96,567.45,235.85,566.25">
+    <ReportTitleBand Name="ReportTitle1" Width="756" Height="14.45"/>
+    <PageHeaderBand Name="PageHeader1" Top="18.45" Width="756" Height="140.62" Guides="-0.72,49.24,46.95,61.29,63.62,82.52,85.51,99.09,99.08,112.68,85.49,99.05,113.39,117.97,131.55,140.62">
+      <TextObject Name="Text1" Left="234.8" Top="-0.72" Width="331.99" Height="49.96" Text="[Table3.CompanyName]" HorzAlign="Center" VertAlign="Bottom" Font="VNI-Thufap2, 17.9999981pt, style=Bold"/>
+      <TextObject Name="Text2" Left="234.02" Top="46.95" Width="333.47" Height="14.34" Text="[Table3.CompanyAddress]" HorzAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text3" Left="234.82" Top="63.62" Width="331.16" Height="18.9" Text="PHIẾU THANH TOÁN" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="234.8" Top="85.51" Width="148.24" Height="13.58" Text="Ngày  lập: [Table1.DateCreate]" Format="Custom" Format.Format="dd/MM/yyyy" Font="Arial, 7pt"/>
+      <TextObject Name="Text6" Left="234.8" Top="99.08" Width="146.7" Height="13.6" Text="Số phiếu: [Table1.ID1]" Font="Arial, 7pt"/>
+      <TextObject Name="Text7" Left="383.71" Top="85.49" Width="182.2" Height="13.6" Text="Khu vực: [Table1.AreaName]" Font="Arial, 7pt"/>
+      <TextObject Name="Text8" Left="383.71" Top="99.05" Width="182.2" Height="14.34" Text="Bàn: [Table1.TableID]" Font="Arial, 7pt"/>
+      <TextObject Name="Text18" Left="237.37" Top="117.97" Width="154.34" Height="13.58" Text="Tên Món" HorzAlign="Center" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text19" Left="393.43" Top="117.97" Width="38.17" Height="13.58" Text="S.L" Format="Number" Format.UseLocale="true" HorzAlign="Center" WordWrap="false" Font="Arial, 9pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text20" Left="430.9" Top="117.97" Width="54.39" Height="13.58" Text="Giá" Format="Number" Format.UseLocale="true" HorzAlign="Center" WordWrap="false" Font="Arial, 9pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text21" Left="488.38" Top="117.97" Width="78.58" Height="13.58" Text="T.Tiền" Format="Number" Format.UseLocale="true" HorzAlign="Center" WordWrap="false" Font="Arial, 9pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <LineObject Name="Line1" Left="236.62" Top="140.62" Width="329.72"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="163.07" Width="756" Height="17.94" Guides="2.29,15.87" DataSource="Table2">
+      <TextObject Name="Text14" Left="236.35" Top="2.29" Width="154.74" Height="13.58" Text="[Table2.DishName]" Font="Arial, 9pt"/>
+      <TextObject Name="Text15" Left="392.9" Top="2.29" Width="34.73" Height="13.58" Text="[Table2.Qty]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" WordWrap="false" Font="Arial, 9pt" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text16" Left="429.95" Top="2.29" Width="54.39" Height="13.58" Text="[Table2.Price]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" WordWrap="false" Font="Arial, 9pt" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text17" Left="487.38" Top="2.29" Width="78.6" Height="13.58" Text="[Table2.Amount]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" WordWrap="false" Font="Arial, 9pt" Trimming="EllipsisCharacter"/>
+    </DataBand>
+    <ColumnFooterBand Name="ColumnFooter1" Top="185.01" Width="756" Height="58.04" Guides="3.02,19.64,23.32,39.18,54.28,0.74">
+      <TextObject Name="Text9" Left="236.29" Top="3.02" Width="330.45" Height="16.62" CanGrow="true" Text="[Table1.TongCong]" Padding="2, 0, 0, 0" HorzAlign="Right" VertAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Text12" Left="234.11" Top="23.32" Width="330.46" Height="15.86" Text="Cảm ơn Quý Khách, hẹn gặp lại !!!!" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold, Italic"/>
+      <TextObject Name="Text13" Left="258.96" Top="39.18" Width="308.49" Height="15.1" Text="Giờ in:[Date]" Format="Custom" Format.Format="dd/MM/yyyy hh:mm:ss" HorzAlign="Right" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+      <LineObject Name="Line2" Left="235.85" Top="0.74" Width="330.4"/>
+    </ColumnFooterBand>
+    <PageFooterBand Name="PageFooter1" Top="247.05" Width="756" Height="1.51"/>
+  </ReportPage>
+</Report>

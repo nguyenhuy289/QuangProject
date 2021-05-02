@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/23/2010 09:32:46" ReportInfo.Modified="09/18/2017 22:36:24" ReportInfo.CreatorVersion="1.2.47.0">
+  <Dictionary>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="CustID" DataType="System.String"/>
+      <Column Name="CustName" DataType="System.String"/>
+      <Column Name="EmpID" DataType="System.String"/>
+      <Column Name="EmpName" DataType="System.String"/>
+      <Column Name="EmpID1" DataType="System.String"/>
+      <Column Name="EmpName1" DataType="System.String"/>
+      <Column Name="AreaID" DataType="System.String"/>
+      <Column Name="AreaName" DataType="System.String"/>
+      <Column Name="TableID" DataType="System.String"/>
+      <Column Name="Cost" DataType="System.Double"/>
+      <Column Name="CostAmount" DataType="System.Double"/>
+      <Column Name="VAT" DataType="System.String"/>
+      <Column Name="VATAmount" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="PaidAmount" DataType="System.Double"/>
+      <Column Name="TotalAmount" DataType="System.Double"/>
+      <Column Name="TotalPayment" DataType="System.Double"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="Address" DataType="System.String"/>
+      <Column Name="Note" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Table2" ReferenceName="Data.Table2" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="DishID" DataType="System.String"/>
+      <Column Name="DishName" DataType="System.String"/>
+      <Column Name="Qty" DataType="System.Double"/>
+      <Column Name="Price" DataType="System.Double"/>
+      <Column Name="Amount" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="Status" DataType="System.Int32"/>
+      <Column Name="TenHang" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Company" ReferenceName="Data.Company" DataType="System.Int32" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="TenQuan" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="MST" DataType="System.String"/>
+      <Column Name="SoTKNH" DataType="System.String"/>
+      <Column Name="TenNganHang" DataType="System.String"/>
+      <Column Name="Font" DataType="System.String"/>
+      <Column Name="Size" DataType="System.Double"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="70" PaperHeight="300" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0">
+    <ReportTitleBand Name="ReportTitle1" Width="264.6"/>
+    <PageHeaderBand Name="PageHeader1" Top="2" Width="264.6" Height="116.5">
+      <RichObject Name="Rich2" Top="39.9" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\b\f0\fs24 [Table1.AreaName] - [Table1.TableID]\b0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <TableObject Name="Table3" Top="97.6" Width="264.6" Height="18.9" Border.Lines="All">
+        <TableColumn Name="Column1" Width="116.55"/>
+        <TableColumn Name="Column2" Width="50.4"/>
+        <TableColumn Name="Column3" Width="97.65"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1" Text="Tên món" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+          <TableCell Name="Cell2" Border.Lines="Left, Right" Text="S.L" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+          <TableCell Name="Cell3" Text="Ghi chú" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+      <RichObject Name="Rich4" Top="58.8" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\f0\fs20 Gi\u7901? in : [Date]\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich5" Top="75.6" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\b\f0\fs24 [Table1.EmpName1]\b0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <TextObject Name="Text3" Width="264.6" Height="28.35" Fill.Color="Black" Text="PHIẾU TRẢ MÓN" HorzAlign="Center" Font="Times New Roman, 16pt, style=Bold" TextFill.Color="White"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="120.5" Width="264.6" Height="37.8" CanGrow="true" DataSource="Table2" KeepTogether="true" KeepDetail="true">
+      <RichObject Name="Rich8" Top="18.9" Width="264.6" Height="18.9" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}}&#13;&#10;\viewkind4\uc1\pard\qr\f0\fs20 [Table2.Note]\par&#13;&#10;}&#13;&#10;"/>
+      <TextObject Name="Text1" Width="207.9" Height="18.9" Fill.Color="Black" CanGrow="true" Text="[Table2.DishName]" Font="Times New Roman, 14pt, style=Bold" TextFill.Color="White"/>
+      <TextObject Name="Text4" Left="207.9" Width="56.7" Height="18.9" Fill.Color="Black" CanGrow="true" Text="[Table2.Qty]" HorzAlign="Center" Font="Times New Roman, 14pt, style=Bold" TextFill.Color="White"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="160.3" Width="264.6" Height="28.35"/>
+  </ReportPage>
+</Report>

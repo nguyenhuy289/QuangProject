@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/23/2010 09:32:46" ReportInfo.Modified="04/07/2019 22:11:03" ReportInfo.CreatorVersion="2018.1.9.0">
+  <Dictionary>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="CustID" DataType="System.String"/>
+      <Column Name="CustName" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="Address" DataType="System.String"/>
+      <Column Name="EmpID" DataType="System.String"/>
+      <Column Name="EmpName" DataType="System.String"/>
+      <Column Name="EmpID1" DataType="System.String"/>
+      <Column Name="EmpName1" DataType="System.String"/>
+      <Column Name="AreaID" DataType="System.String"/>
+      <Column Name="AreaName" DataType="System.String"/>
+      <Column Name="TableID" DataType="System.String"/>
+      <Column Name="Cost" DataType="System.Double"/>
+      <Column Name="CostAmount" DataType="System.Double"/>
+      <Column Name="VAT" DataType="System.String"/>
+      <Column Name="VATAmount" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="PaidAmount" DataType="System.Double"/>
+      <Column Name="TotalAmount" DataType="System.Double"/>
+      <Column Name="TotalPayment" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="DateCreate" DataType="System.DateTime"/>
+      <Column Name="TongCong" DataType="System.String"/>
+      <Column Name="LanIn" DataType="System.String"/>
+      <Column Name="NgayVao" DataType="System.DateTime"/>
+      <Column Name="GioVao" DataType="System.Int32"/>
+      <Column Name="PhutVao" DataType="System.Int32"/>
+      <Column Name="SoGio" DataType="System.Double"/>
+      <Column Name="NgayRa" DataType="System.DateTime"/>
+      <Column Name="GioRa" DataType="System.Int32"/>
+      <Column Name="PhutRa" DataType="System.Int32"/>
+      <Column Name="TienGio" DataType="System.Double"/>
+      <Column Name="Field3" DataType="System.DateTime"/>
+      <Column Name="Field4" DataType="System.String"/>
+      <Column Name="Field5" DataType="System.String"/>
+      <Column Name="SoLanInCheBien" DataType="System.Int32"/>
+      <Column Name="SoPhieuID1" DataType="System.String"/>
+      <Column Name="TienBangChu" DataType="System.String"/>
+      <Column Name="ThanhToan" DataType="System.Double"/>
+      <Column Name="ConLai" DataType="System.Double"/>
+      <Column Name="TienGioSauCK" DataType="System.Double"/>
+      <Column Name="MaTheVip" DataType="System.String"/>
+      <Column Name="TenTheVip" DataType="System.String"/>
+      <Column Name="TenKHTheVip" DataType="System.String"/>
+      <Column Name="NVChonMon" DataType="System.String"/>
+      <Column Name="TenNVChonMon" DataType="System.String"/>
+      <Column Name="CostAmount" Enabled="false" DataType="System.String" PropName="Column"/>
+      <Column Name="DiscAmount" Enabled="false" DataType="System.String" PropName="Column"/>
+      <Column Name="VATAmount" Enabled="false" DataType="System.String" PropName="Column"/>
+    </TableDataSource>
+    <TableDataSource Name="Table2" ReferenceName="Data.Table2" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="DishID" DataType="System.String"/>
+      <Column Name="DishName" DataType="System.String"/>
+      <Column Name="Qty" DataType="System.Double"/>
+      <Column Name="Price" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="Amount" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="Status" DataType="System.Int32"/>
+      <Column Name="STTu" DataType="System.Int32"/>
+      <Column Name="DVT" DataType="System.String"/>
+      <Column Name="MaNhomCha" DataType="System.String"/>
+      <Column Name="TenNhomCha" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Table3" ReferenceName="Data.Table3" DataType="System.Int32" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="MST" DataType="System.String"/>
+      <Column Name="SoTKNH" DataType="System.String"/>
+      <Column Name="TenNganHang" DataType="System.String"/>
+      <Column Name="Font" DataType="System.String"/>
+      <Column Name="Size" DataType="System.Double"/>
+      <Column Name="TenQuan" DataType="System.String"/>
+    </TableDataSource>
+    <Parameter Name="Price USD" DataType="System.Double" Expression="[Table2.Price]/22000"/>
+    <Parameter Name="Amount USD" DataType="System.Double" Expression="[Price USD]*[Table2.Qty]"/>
+    <Parameter Name="Total USD" DataType="System.Double" Expression="[Sum_ThanhTien_USD]-[DiscAmount USD]"/>
+    <Parameter Name="ServiceCharge USD" DataType="System.Double" Expression="[Table1.CostAmount]/22000"/>
+    <Parameter Name="DiscAmount USD" DataType="System.Double" Expression="[Table1.DiscAmount]/22000"/>
+    <Parameter Name="VATAmount USD" DataType="System.Double" Expression="[Table1.VATAmount]/22000"/>
+    <Total Name="Sum_SL" Expression="[Table2.Qty]" Evaluator="Data1"/>
+    <Total Name="Sum_ThanhTien" Expression="[Table2.Amount]" Evaluator="Data1"/>
+    <Total Name="Sum_ThanhTien_USD" Expression="[Amount USD]" Evaluator="Data1"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="70" LeftMargin="0" TopMargin="0" RightMargin="0" FirstPageSource="15" OtherPagesSource="15" Guides="-35.94">
+    <ReportTitleBand Name="ReportTitle1" Width="264.6" Height="103.95" Guides="-5.7">
+      <RichObject Name="Rich2" Left="75.6" Top="47.25" Width="189" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\f0\fs20 [Table3.CompanyAddress]\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich3" Left="75.6" Top="66.15" Width="189" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\b\f0\fs18 [Table3.Tel]\b0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich14" Left="75.6" Top="85.05" Width="189" Height="18.9" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;{\colortbl ;\red0\green0\blue0;}&#13;&#10;\viewkind4\uc1\pard\qc\cf1\f0\fs14 https://www.facebook.com/9pos.vn/\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich15" Left="75.6" Top="18.9" Width="189" Height="28.35" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\qc\b\f0\fs28 [Table3.TenQuan]\fs32\par&#13;&#10;}&#13;&#10;"/>
+      <PictureObject Name="Picture1" Left="1.86" Top="18.9" Width="75.6" Height="75.6" Image="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"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="106.81" Width="264.6" Height="169.55">
+      <RichObject Name="Rich4" Width="264.6" Height="28.35" Text="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;{\*\generator Riched20 10.0.17134}\viewkind4\uc1 &#13;&#10;\pard\qc\b\f0\fs32 PROVISIONAL BILL\b0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich5" Top="35.35" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\b\f0\fs20 [Table1.AreaName] - B\'c0N : [Table1.TableID]\b0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich6" Top="54.25" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\f0\fs20 No. : [Table1.ID1] - Date : [Table1.DateCreate]\f1\fs17\par&#13;&#10;}&#13;&#10;">
+        <Formats>
+          <GeneralFormat/>
+          <DateFormat/>
+        </Formats>
+      </RichObject>
+      <RichObject Name="Rich8" Top="73.15" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\f0\fs20 Cashier : [Table1.EmpName]\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich9" Top="92.23" Width="264.6" Height="18.9" CanShrink="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\f0\fs20 VIP No. : [Table1.MaTheVip]\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <TableObject Name="Table4" Top="150.65" Width="264.6" Height="18.9" Border.Lines="All">
+        <TableColumn Name="Column1" Width="90.72"/>
+        <TableColumn Name="Column2" Width="34.02"/>
+        <TableColumn Name="Column3" Width="52.92"/>
+        <TableColumn Name="Column4" Width="24.57"/>
+        <TableColumn Name="Column5" Width="62.37"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1" Text="Items" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+          <TableCell Name="Cell2" Border.Lines="Left, Right" Text="Qty" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 8pt, style=Bold"/>
+          <TableCell Name="Cell3" Text="Price" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+          <TableCell Name="Cell4" Border.Lines="Left, Right" Text="Dis" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 8pt, style=Bold"/>
+          <TableCell Name="Cell5" Text="Amount" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+      <RichObject Name="Rich18" Top="132.3" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\f0\fs20 Times : [Table1.LanIn] -  : [Date]\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich19" Top="113.4" Width="264.6" Height="18.9" CanShrink="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\f0\fs20 VIP member : [Table1.TenKHTheVip]\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+    </PageHeaderBand>
+    <GroupHeaderBand Name="GroupHeader1" Top="279.21" Width="264.6" Height="18.9" Condition="[Table2.MaNhomCha]">
+      <TableObject Name="Table7" Width="264.6" Height="18.9" Border.Lines="Left, Right, Bottom">
+        <TableColumn Name="Column16" Width="90.72"/>
+        <TableColumn Name="Column17" Width="34.02"/>
+        <TableColumn Name="Column18" Width="52.92"/>
+        <TableColumn Name="Column19" Width="24.57"/>
+        <TableColumn Name="Column20" Width="62.37"/>
+        <TableRow Name="Row4" AutoSize="true">
+          <TableCell Name="Cell16" Text="     [Table2.TenNhomCha]" VertAlign="Center" Font="Times New Roman, 9pt" ColSpan="5"/>
+          <TableCell Name="Cell17" Border.Lines="Left, Right" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt"/>
+          <TableCell Name="Cell18" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 9pt"/>
+          <TableCell Name="Cell19" Border.Lines="Left, Right" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt"/>
+          <TableCell Name="Cell20" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+      <DataBand Name="Data1" Top="300.97" Width="264.6" Height="19.27" CanGrow="true" DataSource="Table2">
+        <TableObject Name="Table5" Width="264.6" Height="18.9" Border.Lines="Left, Right, Bottom">
+          <TableColumn Name="Column6" Width="90.72"/>
+          <TableColumn Name="Column7" Width="34.02"/>
+          <TableColumn Name="Column8" Width="52.92"/>
+          <TableColumn Name="Column9" Width="24.57"/>
+          <TableColumn Name="Column10" Width="62.37"/>
+          <TableRow Name="Row2" AutoSize="true">
+            <TableCell Name="Cell6" Text="[Table2.DishName]" VertAlign="Center" Font="Times New Roman, 9pt"/>
+            <TableCell Name="Cell7" Border.Lines="Left, Right" Text="[Table2.Qty]" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt"/>
+            <TableCell Name="Cell8" Text="[Price USD]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 9pt"/>
+            <TableCell Name="Cell9" Border.Lines="Left, Right" Text="[Table2.Discount]" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt"/>
+            <TableCell Name="Cell10" Text="[Amount USD]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+          </TableRow>
+        </TableObject>
+      </DataBand>
+      <GroupFooterBand Name="GroupFooter1" Top="323.1" Width="264.6"/>
+    </GroupHeaderBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="527.26" Width="264.6" Height="86.97" Guides="66.15,66.15"/>
+    <ColumnFooterBand Name="ColumnFooter1" Top="325.96" Width="264.6" Height="198.45" CanGrow="true" CanShrink="true">
+      <RichObject Name="Rich10" Top="47.35" Width="264.6" Height="18.9" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\qr\b\f0\fs20 Sum Amount :  [Sum_ThanhTien_USD]   USD\par&#13;&#10;}&#13;&#10;" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1"/>
+      <RichObject Name="Rich11" Top="110.95" Width="264.6" Height="18.9" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\i\f0\fs20 Thanks and See you Again !\i0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <LineObject Name="Line1" Top="109.95" Width="264.6" Border.Style="DashDotDot" Diagonal="true"/>
+      <RichObject Name="Rich13" Top="107.5" Width="264.6" CanGrow="true" CanBreak="false" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\qc\f0\fs20 [Table1.Note]\b\fs24\par&#13;&#10;}&#13;&#10;"/>
+      <TableObject Name="Table6" Width="264.6" Height="18.9" Border.Lines="Left, Right, Bottom">
+        <TableColumn Name="Column11" Width="90.72"/>
+        <TableColumn Name="Column12" Width="34.02"/>
+        <TableColumn Name="Column13" Width="52.92"/>
+        <TableColumn Name="Column14" Width="24.57"/>
+        <TableColumn Name="Column15" Width="62.37"/>
+        <TableRow Name="Row3">
+          <TableCell Name="Cell11" Text="Sum Qty" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+          <TableCell Name="Cell12" Border.Lines="Left, Right" Text="[Sum_SL]" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+          <TableCell Name="Cell13" Border.Lines="Right" Text="Sum Am." HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold" ColSpan="2"/>
+          <TableCell Name="Cell14" Border.Lines="Left, Right" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 9pt, style=Bold"/>
+          <TableCell Name="Cell15" Text="[Sum_ThanhTien_USD]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+      <RichObject Name="Rich20" Top="64.25" Width="264.6" Height="18.9" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\qr\b\f0\fs20 Discount : [DiscAmount USD]  USD\par&#13;&#10;}&#13;&#10;" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1"/>
+      <RichObject Name="Rich21" Top="83.7" Width="264.6" Height="18.9" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\qr\b\f0\fs24 Total : [Total USD]  USD\par&#13;&#10;}&#13;&#10;" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1"/>
+      <RichObject Name="Rich12" Top="135.4" Width="264.6" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}&#13;&#10;\viewkind4\uc1\pard\qc\b\f0\fs20 9POS Proffessional\par&#13;&#10;http:// 9pos.vn\par&#13;&#10;Hotline Support : 0935.612.552\b0\f1\fs17\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich22" Top="28.35" Width="213.48" Height="18.9" CanGrow="true" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\b\f0\fs20 Exchange rate : 22.000 VND/ 1USD\par&#13;&#10;}&#13;&#10;" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1"/>
+    </ColumnFooterBand>
+  </ReportPage>
+</Report>

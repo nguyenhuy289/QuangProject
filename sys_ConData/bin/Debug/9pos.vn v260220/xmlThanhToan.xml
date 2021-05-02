@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="TenPhieuThanhToan" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TenPhieuThanhToan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Ma" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten" type="xs:string" minOccurs="0" />
+                <xs:element name="GhiChu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TenPhieuThanhToan>
+    <Ma>ThanhTien</Ma>
+    <Ten>Thành tiền:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>PhiPhucVu</Ma>
+    <Ten>Phụ thu:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>GiamGia</Ma>
+    <Ten>Giảm giá:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>Thue</Ma>
+    <Ten>Thuế:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>TongTienPhaiTra</Ma>
+    <Ten>Tổng cộng:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>DatCoc</Ma>
+    <Ten>Thanh toán:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>ConLai</Ma>
+    <Ten>Còn lại:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+    <TenPhieuThanhToan>
+    <Ma>ThanhTien</Ma>
+    <Ten>Amount:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>PhiPhucVu</Ma>
+    <Ten>Service Charge:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>GiamGia</Ma>
+    <Ten>Discount:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>Thue</Ma>
+    <Ten>Tax:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>TongTienPhaiTra</Ma>
+    <Ten>Total:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>DatCoc</Ma>
+    <Ten>Payment:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+  <TenPhieuThanhToan>
+    <Ma>ConLai</Ma>
+    <Ten>Change:</Ten>
+    <GhiChu>Sẽ hiển thị Tên lên phiếu thanh toán.</GhiChu>
+  </TenPhieuThanhToan>
+</NewDataSet>

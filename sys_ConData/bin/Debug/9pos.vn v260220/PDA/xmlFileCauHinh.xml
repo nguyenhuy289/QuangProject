@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="CauHinh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CauHinh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Note" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CauHinh>
+    <Key>InHoaDon</Key>
+    <Value>1</Value>
+    <Note>Gia tri 0: Khong in lai toan bo hoa don, Gia tri 1: In lai toan bo hoa don.</Note>
+  </CauHinh>
+  <CauHinh>
+    <Key>RefreshTable</Key>
+    <Value>1</Value>
+    <Note>Gia tri 0: Không refresh, Gia tri 1: refresh</Note>
+  </CauHinh>
+  <CauHinh>
+    <Key>AutoRefresh</Key>
+    <Value>1</Value>
+    <Note>Gia tri 0: Khong refresh tu dong, Gia tri 1: refresh tu dong</Note>
+  </CauHinh>
+  <CauHinh>
+    <Key>ThoiGanRefresh</Key>
+    <Value>30000</Value>
+    <Note>So giay de refresh tuong ung( 1 giay = 1000)</Note>
+  </CauHinh>
+  <CauHinh>
+    <Key>BCKeToan</Key>
+    <Value>0</Value>
+    <Note>Gia tri 0: Khong hien thi bao cao ke toan, Gia tri 1: hien thi bao cao ke toan</Note>
+  </CauHinh>
+  <CauHinh>
+    <Key>BCNhanh</Key>
+    <Value>1</Value>
+    <Note>Gia tri 0: Khong hien thi Mo ket, Gia tri 1: hien thi Mo Ket</Note>
+  </CauHinh>
+</NewDataSet>

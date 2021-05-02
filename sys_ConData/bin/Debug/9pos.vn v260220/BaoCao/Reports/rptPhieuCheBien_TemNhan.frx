@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="05/23/2018 09:32:00" ReportInfo.Modified="06/08/2018 02:26:56" ReportInfo.CreatorVersion="1.2.47.0">
+  <Dictionary>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="CustID" DataType="System.String"/>
+      <Column Name="CustName" DataType="System.String"/>
+      <Column Name="EmpID" DataType="System.String"/>
+      <Column Name="EmpName" DataType="System.String"/>
+      <Column Name="EmpID1" DataType="System.String"/>
+      <Column Name="EmpName1" DataType="System.String"/>
+      <Column Name="AreaID" DataType="System.String"/>
+      <Column Name="AreaName" DataType="System.String"/>
+      <Column Name="TableID" DataType="System.String"/>
+      <Column Name="Cost" DataType="System.Double"/>
+      <Column Name="CostAmount" DataType="System.Double"/>
+      <Column Name="VAT" DataType="System.String"/>
+      <Column Name="VATAmount" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="PaidAmount" DataType="System.Double"/>
+      <Column Name="TotalAmount" DataType="System.Double"/>
+      <Column Name="TotalPayment" DataType="System.Double"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="Address" DataType="System.String"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="DateCreate" DataType="System.DateTime"/>
+      <Column Name="LanIn" DataType="System.String"/>
+      <Column Name="NgayVao" DataType="System.DateTime"/>
+      <Column Name="GioVao" DataType="System.Int32"/>
+      <Column Name="PhutVao" DataType="System.Int32"/>
+      <Column Name="SoGio" DataType="System.Double"/>
+      <Column Name="NgayRa" DataType="System.DateTime"/>
+      <Column Name="GioRa" DataType="System.Int32"/>
+      <Column Name="PhutRa" DataType="System.Int32"/>
+      <Column Name="TienGio" DataType="System.Double"/>
+      <Column Name="Field3" DataType="System.DateTime"/>
+      <Column Name="Field4" DataType="System.String"/>
+      <Column Name="Field5" DataType="System.String"/>
+      <Column Name="TongCong" DataType="System.String"/>
+      <Column Name="Column" Alias="ID2" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+    <TableDataSource Name="Table2" ReferenceName="Data.Table2" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="DishID" DataType="System.String"/>
+      <Column Name="DishName" DataType="System.String"/>
+      <Column Name="Qty" DataType="System.Double"/>
+      <Column Name="Price" DataType="System.Double"/>
+      <Column Name="Amount" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="Status" DataType="System.Int32"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="STTu" DataType="System.Int32"/>
+      <Column Name="DVT" DataType="System.String"/>
+      <Column Name="Column" Alias="ID2" Enabled="false" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+    <TableDataSource Name="TongSL" ReferenceName="Data.TongSL" DataType="System.Int32" Enabled="true">
+      <Column Name="TongSL" DataType="System.Double"/>
+      <Column Name="Column" Alias="ID2" Enabled="false" DataType="System.Int32" Calculated="true" Expression=""/>
+      <Column Name="Column1" Enabled="false" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+    <Total Name="Total" Expression="[Table2.Qty]" Evaluator="Data1" ResetAfterPrint="false"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="40" PaperHeight="30" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" FirstPageSource="10" OtherPagesSource="10">
+    <DataBand Name="Data1" Width="151.2" Height="113.4" CanGrow="true" DataSource="Table2" KeepTogether="true" KeepDetail="true" Indent="0">
+      <TextObject Name="Text1" Top="25.35" Width="141.75" Height="11.34" CanGrow="true" Text="[Table2.DishName]" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text2" Left="9.45" Top="46.7" Width="132.3" Height="11.34" CanGrow="true" Text="[Table2.Note]" Font="Arial, 7pt"/>
+      <TextObject Name="Text7" Left="9.45" Top="36.8" Width="132.3" Height="11.34" CanGrow="true" Text="[Table2.Price] đ" Format="Custom" Format.Format="### ### ##0" HorzAlign="Right" Font="Arial, 7pt"/>
+      <LineObject Name="Line2" Top="25.35" Width="151.2" Border.Width="0.5" Diagonal="true"/>
+      <LineObject Name="Line1" Top="14.9" Width="151.2" Border.Width="0.5" Diagonal="true"/>
+      <TextObject Name="Text4" Top="14.9" Width="94.5" Height="11.34" CanGrow="true" Text="[Date]" Format="Custom" Format.Format="dd.MM.yyyy HH:mm" Font="Arial, 7pt"/>
+      <TextObject Name="Text3" Top="3" Width="85.05" Height="11.34" Text="[Table1.ID2]" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text6" Left="94.5" Top="3" Width="47.25" Height="11.34" Border.Lines="All" Text="[Table1.AreaID]" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text8" Left="75.4" Top="15.45" Width="66.15" Height="11.34" CanGrow="true" Text="Ly [Row#]/[TongSL.TongSL]" HorzAlign="Right" Font="Arial, 7pt">
+        <Formats>
+          <GeneralFormat/>
+          <GeneralFormat/>
+        </Formats>
+      </TextObject>
+    </DataBand>
+  </ReportPage>
+</Report>

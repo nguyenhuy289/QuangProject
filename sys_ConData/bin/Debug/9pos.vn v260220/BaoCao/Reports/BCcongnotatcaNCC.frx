@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/27/2010 11:45:56" ReportInfo.Modified="08/27/2010 12:44:21" ReportInfo.CreatorVersion="1.0.203.0">
+  <Dictionary>
+    <TableDataSource Name="dtCompany" ReferenceName="Data.dtCompany" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="MST" DataType="System.String"/>
+      <Column Name="SoTKNH" DataType="System.String"/>
+      <Column Name="TenNganHang" DataType="System.String"/>
+      <Column Name="Font" DataType="System.String"/>
+      <Column Name="Size" DataType="System.Double"/>
+    </TableDataSource>
+    <TableDataSource Name="dtInfo" ReferenceName="Data.dtInfo" Enabled="true">
+      <Column Name="MaKH" DataType="System.String"/>
+      <Column Name="TenKH" DataType="System.String"/>
+      <Column Name="DiaChi" DataType="System.String"/>
+      <Column Name="DuDK" DataType="System.Double"/>
+      <Column Name="PSTang" DataType="System.Double"/>
+      <Column Name="PSGiam" DataType="System.Double"/>
+      <Column Name="DuCK" DataType="System.Double"/>
+    </TableDataSource>
+    <TableDataSource Name="dtFind" ReferenceName="Data.dtFind" Enabled="true">
+      <Column Name="TuNgay" DataType="System.DateTime"/>
+      <Column Name="DenNgay" DataType="System.DateTime"/>
+    </TableDataSource>
+    <Parameter Name="Parameter" DataType="System.String"/>
+    <Total Name="TongDK" Expression="[dtInfo.DuDK]" Evaluator="Data1"/>
+    <Total Name="TongPSTang" Expression="[dtInfo.PSTang]" Evaluator="Data1"/>
+    <Total Name="TongPSGiam" Expression="[dtInfo.PSGiam]" Evaluator="Data1"/>
+    <Total Name="TongCK" Expression="[dtInfo.DuCK]" Evaluator="Data1"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="88.45">
+      <TextObject Name="Text1" Left="13.23" Top="23.02" Width="1020.6" Height="25.71" Text="BÁO CÁO CÔNG NỢ TỔNG HỢP CỦA TẤT CẢ NHÀ CUNG CẤP" HorzAlign="Center" WordWrap="false" Font="Arial, 14.25pt, style=Bold"/>
+      <TextObject Name="Text2" Left="379.89" Top="57.46" Width="64.28" Height="18.9" Text="Từ ngày:" Font="Arial, 9.75pt"/>
+      <TextObject Name="Text3" Left="534.48" Top="57.46" Width="71.08" Height="18.9" Text="Đến ngày:" Font="Arial, 9.75pt"/>
+      <TextObject Name="Text10" Left="-9450" Top="-9450" Width="66.15" Height="18.9" Text="Đơn giá" Font="Arial, 9.75pt" TabWidth="50"/>
+      <TextObject Name="Text11" Left="-9450" Top="-9450" Width="66.15" Height="18.9" Text="Đơn giá" Font="Arial, 9.75pt" TabWidth="50"/>
+      <TextObject Name="Text13" Left="-9450" Top="-9450" Width="85.05" Height="18.9" Text="Thành tiền" Font="Arial, 9.75pt" TabWidth="50"/>
+      <TextObject Name="Text4" Left="15.12" Width="94.5" Height="18.9" Text="Tên công ty:" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text7" Left="445.66" Top="57.46" Width="86.57" Height="18.9" Text="[dtFind.TuNgay]" Format="Custom" Format.Format="dd/MM/yyyy" Font="Arial, 9.75pt"/>
+      <TextObject Name="Text8" Left="609.34" Top="57.46" Width="94.5" Height="18.9" Text="[dtFind.DenNgay]" Format="Custom" Format.Format="dd/MM/yyyy" Font="Arial, 9.75pt"/>
+      <TextObject Name="Text9" Left="113.4" Top="-0.38" Width="689.44" Height="18.9" Text="[dtCompany.CompanyName]" VertAlign="Center" Font="Arial, 9.75pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="92.45" Width="1047.06" Height="30.19">
+      <TableObject Name="Table1" Left="15.12" Top="-0.8" Width="1019.84" Height="30.99" Border.Lines="All" Fill.Color="LawnGreen">
+        <TableColumn Name="Column1" Width="44.32"/>
+        <TableColumn Name="Column2" Width="97.24"/>
+        <TableColumn Name="Column3" Width="206.86"/>
+        <TableColumn Name="Column4" Width="206.86"/>
+        <TableColumn Name="Column5" Width="116.14"/>
+        <TableColumn Name="Column6" Width="116.14"/>
+        <TableColumn Name="Column7" Width="116.14"/>
+        <TableColumn Name="Column8" Width="116.14"/>
+        <TableRow Name="Row1" Height="30.99">
+          <TableCell Name="Cell1" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text19" Left="3.78" Top="6.78" Width="34.02" Height="18.9" Text="STT" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold"/>
+          </TableCell>
+          <TableCell Name="Cell2" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text5" Left="3.78" Top="6.78" Width="83.16" Height="18.9" Text="Mã nhà CC" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+          <TableCell Name="Cell3" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text6" Left="3.78" Top="6.78" Width="200.34" Height="18.9" Text="Tên nhà cung cấp" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+          <TableCell Name="Cell4" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text20" Left="3.78" Top="6.78" Width="196.56" Height="18.9" Text="Địa chỉ" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+          <TableCell Name="Cell5" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text21" Left="3.78" Top="6.78" Width="109.62" Height="18.9" Text="Đầu kỳ phải trả" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+          <TableCell Name="Cell26" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text22" Left="3.78" Top="6.78" Width="105.84" Height="18.9" Text="Phát sinh tăng" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+          <TableCell Name="Cell27" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text23" Left="11.34" Top="6.78" Width="105.84" Height="18.9" Text="Phát sinh giảm" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+          <TableCell Name="Cell28" Border.Lines="Right" Fill.Color="Gainsboro">
+            <TextObject Name="Text24" Left="3.78" Top="6.78" Width="109.62" Height="18.9" Text="Cuối kỳ phải trả" HorzAlign="Center" VertAlign="Center" Font="Arial, 9.75pt, style=Bold" TabWidth="50"/>
+          </TableCell>
+        </TableRow>
+      </TableObject>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="126.64" Width="1047.06" Height="24.94" DataSource="dtInfo">
+      <TableObject Name="Table2" Left="15.12" Width="1019.84" Height="24.94" Border.Lines="All" Fill.Color="LawnGreen">
+        <TableColumn Name="Column9" Width="44.32"/>
+        <TableColumn Name="Column10" Width="97.24"/>
+        <TableColumn Name="Column11" Width="206.86"/>
+        <TableColumn Name="Column12" Width="206.86"/>
+        <TableColumn Name="Column13" Width="116.14"/>
+        <TableColumn Name="Column14" Width="116.14"/>
+        <TableColumn Name="Column15" Width="116.14"/>
+        <TableColumn Name="Column16" Width="116.14"/>
+        <TableRow Name="Row2" Height="24.94">
+          <TableCell Name="Cell29" Border.Lines="Right" Fill.Color="White" Text="[Row#]" HorzAlign="Center" VertAlign="Center"/>
+          <TableCell Name="Cell30" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.MaKH]" VertAlign="Center"/>
+          <TableCell Name="Cell31" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.TenKH]" VertAlign="Center"/>
+          <TableCell Name="Cell32" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.DiaChi]" VertAlign="Center"/>
+          <TableCell Name="Cell33" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.DuDK]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center"/>
+          <TableCell Name="Cell34" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.PSTang]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center"/>
+          <TableCell Name="Cell35" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.PSGiam]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center"/>
+          <TableCell Name="Cell36" Border.Lines="Right" Fill.Color="White" Text="[dtInfo.DuCK]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="155.58" Width="1047.06" Height="83.91">
+      <TextObject Name="Text18" Left="812.7" Top="37.92" Width="166.32" Height="34.02" Text="Người lập biểu&#13;&#10;(ký tên)" HorzAlign="Center" Font="Arial, 9.75pt"/>
+      <TableObject Name="Table3" Left="14.77" Width="1020.21" Height="24.94" Border.Lines="All" Fill.Color="LawnGreen">
+        <TableColumn Name="Column17" Width="44.32"/>
+        <TableColumn Name="Column18" Width="97.24"/>
+        <TableColumn Name="Column19" Width="206.86"/>
+        <TableColumn Name="Column20" Width="206.86"/>
+        <TableColumn Name="Column21" Width="116.89"/>
+        <TableColumn Name="Column22" Width="115.76"/>
+        <TableColumn Name="Column23" Width="116.14"/>
+        <TableColumn Name="Column24" Width="116.14"/>
+        <TableRow Name="Row3" Height="24.94">
+          <TableCell Name="Cell37" Border.Lines="Right" Fill.Color="White" HorzAlign="Center" VertAlign="Center" ColSpan="4">
+            <TextObject Name="Text12" Left="117.18" Top="3.77" Width="399.1" Height="18.9" Text="Tổng cộng:" HorzAlign="Right" VertAlign="Center" Font="Arial, 9.75pt, style=Bold"/>
+          </TableCell>
+          <TableCell Name="Cell38" Border.Lines="Right" Fill.Color="White" VertAlign="Center"/>
+          <TableCell Name="Cell39" Border.Lines="Right" Fill.Color="White" VertAlign="Center"/>
+          <TableCell Name="Cell40" Border.Lines="Right" Fill.Color="White" VertAlign="Center"/>
+          <TableCell Name="Cell41" Border.Lines="Right" Fill.Color="White" Text="[TongDK]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell42" Border.Lines="Right" Fill.Color="White" Text="[TongPSTang]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell43" Border.Lines="Right" Fill.Color="White" Text="[TongPSGiam]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell44" Border.Lines="Right" Fill.Color="White" Text="[TongCK]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </ReportSummaryBand>
+    <PageFooterBand Name="PageFooter1" Top="243.49" Width="1047.06" Height="22.68" Guides="0"/>
+  </ReportPage>
+</Report>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="08/10/2010 10:57:03" ReportInfo.Modified="08/19/2010 17:36:10" ReportInfo.CreatorVersion="1.0.203.0">
+  <Dictionary>
+    <TableDataSource Name="dtCompany" ReferenceName="Data.dtCompany" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="MST" DataType="System.String"/>
+      <Column Name="SoTKNH" DataType="System.String"/>
+      <Column Name="TenNganHang" DataType="System.String"/>
+      <Column Name="Font" DataType="System.String"/>
+      <Column Name="Size" DataType="System.Double"/>
+    </TableDataSource>
+    <TableDataSource Name="Info" ReferenceName="Data.Info" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="ID2" DataType="System.String"/>
+      <Column Name="NgayLap" DataType="System.DateTime"/>
+      <Column Name="NgayHT" DataType="System.DateTime"/>
+      <Column Name="MaNVLap" DataType="System.String"/>
+      <Column Name="MaNVKD" DataType="System.String"/>
+      <Column Name="MaKH" DataType="System.String"/>
+      <Column Name="DiaChi" DataType="System.String"/>
+      <Column Name="DienThoai" DataType="System.String"/>
+      <Column Name="LoaiCT" DataType="System.String"/>
+      <Column Name="TrangThaiCT" DataType="System.String"/>
+      <Column Name="SoHoaDon" DataType="System.String"/>
+      <Column Name="SoSeri" DataType="System.String"/>
+      <Column Name="NgayHoaDon" DataType="System.DateTime"/>
+      <Column Name="ThueSuat" DataType="System.String"/>
+      <Column Name="TienThue" DataType="System.Double"/>
+      <Column Name="CK" DataType="System.Double"/>
+      <Column Name="TienCK" DataType="System.Double"/>
+      <Column Name="TienHang" DataType="System.Double"/>
+      <Column Name="ChiPhi" DataType="System.Double"/>
+      <Column Name="TongTien" DataType="System.Double"/>
+      <Column Name="GhiChu" DataType="System.String"/>
+      <Column Name="SiLe" DataType="System.Boolean" BindableControl="CheckBox"/>
+      <Column Name="MaHopDong" DataType="System.String"/>
+      <Column Name="Huy" DataType="System.Boolean" BindableControl="CheckBox"/>
+      <Column Name="STTien" DataType="System.Boolean" BindableControl="CheckBox"/>
+      <Column Name="Field1" DataType="System.String"/>
+      <Column Name="Field2" DataType="System.String"/>
+      <Column Name="Field3" DataType="System.String"/>
+      <Column Name="Field4" DataType="System.String"/>
+      <Column Name="Field5" DataType="System.String"/>
+      <Column Name="TenNVLap" DataType="System.String"/>
+      <Column Name="TenNVKD" DataType="System.String"/>
+      <Column Name="TenKH" DataType="System.String"/>
+      <Column Name="TenKHLe" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Item" ReferenceName="Data.Item" Enabled="true">
+      <Column Name="MaHang" DataType="System.String"/>
+      <Column Name="SoLuong" DataType="System.Double"/>
+      <Column Name="GiaBan" DataType="System.Double"/>
+      <Column Name="CK" DataType="System.Double"/>
+      <Column Name="TienCK" DataType="System.Double"/>
+      <Column Name="ThanhTien" DataType="System.Double"/>
+      <Column Name="MaKho" DataType="System.String"/>
+      <Column Name="GhiChu" DataType="System.String"/>
+      <Column Name="TenHang" DataType="System.String"/>
+      <Column Name="DVT" DataType="System.String"/>
+      <Column Name="TenKho" DataType="System.String"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" LeftMargin="0" RightMargin="0" FirstPageSource="15" OtherPagesSource="15" Guides="2.27,269.12,3.01,269.13,269.09,272.07,129.85,157.34,212.09,272.22,129.71,157.82,212.39,71.65,269.01,71.69,72.38,269.71,72.39,269.72,3.04,142.9,142.87,269.19,109.43,269.73">
+    <ReportTitleBand Name="ReportTitle1" Width="793.8"/>
+    <PageHeaderBand Name="PageHeader1" Top="2" Width="793.8" Height="87.62" Guides="-0.06,18.84,37.79,44.53,63.43,68.72,87.62,0,18.9">
+      <TextObject Name="Text1" Left="2.27" Top="-0.06" Width="266.85" Height="18.9" Text="[dtCompany.CompanyName]" Padding="0, 0, 0, 0" HorzAlign="Center" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text2" Left="3.01" Top="18.84" Width="266.12" Height="18.95" Text="[dtCompany.CompanyAddress]" Padding="0, 0, 0, 0" HorzAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text3" Left="2.26" Top="44.53" Width="266.83" Height="18.9" Text="PHIẾU THANH TOÁN" HorzAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TableObject Name="Table3" Left="3.02" Top="68.72" Width="269.05" Height="18.9" Border.Lines="All">
+        <TableColumn Name="Column1" Width="126.83"/>
+        <TableColumn Name="Column2" Width="27.49"/>
+        <TableColumn Name="Column3" Width="54.75"/>
+        <TableColumn Name="Column4" Width="59.98"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1" Border.Lines="Right" Text="Tên hàng" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell2" Border.Lines="All" Text="S.L" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell3" Border.Lines="All" Text="Đ.Giá" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell4" Border.Lines="All" Text="T.Tiền" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="91.62" Width="793.8" Height="18.9" Guides="0,18.9" DataSource="Item">
+      <TableObject Name="Table4" Left="3.01" Width="269.21" Height="18.9" Border.Lines="All">
+        <TableColumn Name="Column5" Width="126.7"/>
+        <TableColumn Name="Column6" Width="28.11"/>
+        <TableColumn Name="Column7" Width="54.57"/>
+        <TableColumn Name="Column8" Width="59.83"/>
+        <TableRow Name="Row2">
+          <TableCell Name="Cell5" Border.Lines="Right" Text="[Item.TenHang]" Padding="0, 1, 0, 1" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell6" Border.Lines="All" Text="[Item.SoLuong]" Padding="0, 1, 0, 1" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell7" Border.Lines="All" Text="[Item.GiaBan]" Padding="0, 1, 0, 1" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell8" Border.Lines="All" Text="[Item.ThanhTien]" Padding="0, 1, 0, 1" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="112.52" Width="793.8" Height="105.11" Guides="3.76,18.1,18.11,32.45,46.79,46.78,61.12,67.18,81.52,66.54,80.88,86.2,100.54">
+      <TextObject Name="Text4" Left="71.65" Top="3.76" Width="197.36" Height="14.34" Text="Tiền hàng: [Info.TienHang]" Padding="2, 0, 0, 0" Format="Custom" Format.Format="#,##0" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text5" Left="71.69" Top="18.11" Width="197.32" Height="14.34" Text="Tiền CK: [Info.TienCK]" Padding="2, 0, 0, 0" Format="Custom" Format.Format="#,##0" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text6" Left="72.38" Top="32.45" Width="197.33" Height="14.34" Text="Tiền thuế: [Info.TienThue]" Padding="2, 0, 0, 0" Format="Custom" Format.Format="#,##0" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text7" Left="72.39" Top="46.78" Width="197.33" Height="14.34" Text="Tổng cộng: [Info.TongTien]" Padding="2, 0, 0, 0" Format="Custom" Format.Format="#,##0" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text8" Left="3.04" Top="67.18" Width="139.86" Height="14.34" Text="Thu ngân: [Info.TenNVLap]" Font="Arial, 8pt"/>
+      <TextObject Name="Text9" Left="142.87" Top="66.54" Width="126.32" Height="14.34" Text="NVKD: [Info.TenNVKD]" Font="Arial, 8pt"/>
+      <TextObject Name="Text10" Left="109.43" Top="86.2" Width="160.3" Height="14.34" Text="Giơ in: [Date]" Format="Custom" Format.Format="dd/MM/yyyy hh:mm:ss" HorzAlign="Right" Font="Arial, 8pt"/>
+    </ReportSummaryBand>
+    <PageFooterBand Name="PageFooter1" Top="219.63" Width="793.8" Height="35.53"/>
+  </ReportPage>
+</Report>

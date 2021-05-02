@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/23/2010 09:32:46" ReportInfo.Modified="06/30/2018 00:01:28" ReportInfo.CreatorVersion="1.2.47.0">
+  <Dictionary>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
+      <Column Name="STT1" DataType="System.String"/>
+      <Column Name="ChiTieu" DataType="System.String"/>
+      <Column Name="TongTien" DataType="System.Double"/>
+      <Column Name="NgayCa" DataType="System.String"/>
+      <Column Name="TenNV" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Table2" ReferenceName="Data.Table2" DataType="System.Int32" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="TenQuan" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="MST" DataType="System.String"/>
+      <Column Name="SoTKNH" DataType="System.String"/>
+      <Column Name="TenNganHang" DataType="System.String"/>
+      <Column Name="Font" DataType="System.String"/>
+      <Column Name="Size" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Table3" ReferenceName="Data.Table3" DataType="System.Int32" Enabled="true">
+      <Column Name="NamTramK" DataType="System.Double"/>
+      <Column Name="HaiTramK" DataType="System.Double"/>
+      <Column Name="MotTramK" DataType="System.Double"/>
+      <Column Name="NamMuoiK" DataType="System.Double"/>
+      <Column Name="HaiMuoiK" DataType="System.Double"/>
+      <Column Name="MuoiK" DataType="System.Double"/>
+      <Column Name="NamK" DataType="System.Double"/>
+      <Column Name="HaiK" DataType="System.Double"/>
+      <Column Name="MotK" DataType="System.Double"/>
+      <Column Name="NamTram" DataType="System.Double"/>
+      <Column Name="TienMatCuoiCa" DataType="System.String"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="70" LeftMargin="0" TopMargin="0" RightMargin="0" FirstPageSource="15" OtherPagesSource="15" Guides="-35.94">
+    <ReportTitleBand Name="ReportTitle1" Width="264.6" Height="32.1" Guides="-5.7">
+      <RichObject Name="Rich15" Left="1.86" Top="0.75" Width="189" Height="15.45" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\b\f0\fs20 [Table2.TenQuan]\fs32\par&#13;&#10;}&#13;&#10;"/>
+      <RichObject Name="Rich16" Left="75.6" Top="16.65" Width="189" Height="15.45" Text="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}&#13;&#10;\viewkind4\uc1\pard\qr\b\f0\fs20 [Table1.TenNV]\par&#13;&#10;}&#13;&#10;"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="35.43" Width="264.6" Height="75.6">
+      <TextObject Name="Text1" Width="264.6" Height="28.35" Text="[Table1.NgayCa]" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 14pt, style=Bold"/>
+      <TableObject Name="Table5" Top="56.7" Width="264.6" Height="18.9">
+        <TableColumn Name="Column4" Width="34.65"/>
+        <TableColumn Name="Column5" Width="138.6"/>
+        <TableColumn Name="Column6" Width="91.35"/>
+        <TableRow Name="Row2">
+          <TableCell Name="Cell4" Border.Lines="All" Text="STT" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+          <TableCell Name="Cell5" Border.Lines="All" Text="DANH MỤC" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+          <TableCell Name="Cell6" Border.Lines="All" Text="TỔNG TIỀN" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+      <TextObject Name="Text2" Left="9.45" Top="28.35" Width="247.56" Height="28.35" Text="[Date]" Format="Custom" Format.Format="dd/MM/yyyy HH:mm:ss" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 11pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="114.37" Width="264.6" Height="18.9" DataSource="Table1">
+      <TableObject Name="Table6" Width="264.6" Height="18.9" Border.Lines="Bottom">
+        <TableColumn Name="Column7" Width="34.65"/>
+        <TableColumn Name="Column8" Width="138.6"/>
+        <TableColumn Name="Column9" Width="91.35"/>
+        <TableRow Name="Row3">
+          <TableCell Name="Cell7" Border.Lines="Left, Right, Bottom" Text="[Table1.STT1]" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 10pt"/>
+          <TableCell Name="Cell8" Border.Lines="Right" Text="[Table1.ChiTieu]" VertAlign="Center" Font="Times New Roman, 10pt"/>
+          <TableCell Name="Cell9" Border.Lines="Right" Text="[Table1.TongTien]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="341.28" Width="264.6" Height="160.65" CanGrow="true"/>
+    <ColumnFooterBand Name="ColumnFooter1" Top="136.6" Width="264.6" Height="201.35" CanGrow="true" CanShrink="true">
+      <LineObject Name="Line2" Top="9.45" Width="264.6" Border.Style="DashDot"/>
+      <TextObject Name="Text14" Top="18.9" Width="264.6" Height="28.35" Text="Tiền mặt thực tế cuối ca " VertAlign="Center" Font="Times New Roman, 11pt, style=Bold"/>
+      <LineObject Name="Line1" Top="12.9" Width="264.6" Border.Style="DashDot"/>
+      <TextObject Name="Text3" Top="47.25" Width="75.6" Height="18.9" Text="500K :" Format="Custom" Format.Format="### ### ##0" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text4" Left="132.3" Top="47.25" Width="66.15" Height="18.9" Text="200K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text19" Left="75.6" Top="47.25" Width="37.8" Height="18.9" Text="[Table3.NamTramK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text24" Left="198.45" Top="47.25" Width="37.8" Height="18.9" Text="[Table3.HaiTramK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text5" Top="66.15" Width="75.6" Height="18.9" Text="100K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text6" Left="132.3" Top="66.15" Width="66.15" Height="18.9" Text="50K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text15" Left="75.6" Top="66.15" Width="37.8" Height="18.9" Text="[Table3.MotTramK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text20" Left="198.45" Top="66.15" Width="37.8" Height="18.9" Text="[Table3.NamMuoiK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text7" Top="85.05" Width="75.6" Height="18.9" Text="20K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text8" Left="132.3" Top="85.05" Width="66.15" Height="18.9" Text="10K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text16" Left="75.6" Top="85.05" Width="37.8" Height="18.9" Text="[Table3.HaiMuoiK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text21" Left="198.45" Top="85.05" Width="37.8" Height="18.9" Text="[Table3.MuoiK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text9" Top="103.95" Width="75.6" Height="18.9" Text="5K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text10" Left="132.3" Top="103.95" Width="66.15" Height="18.9" Text="2K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text17" Left="75.6" Top="103.95" Width="37.8" Height="18.9" Text="[Table3.NamK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text22" Left="198.45" Top="103.95" Width="37.8" Height="18.9" Text="[Table3.HaiK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text11" Top="122.85" Width="75.6" Height="18.9" Text="1K :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text12" Left="132.3" Top="122.85" Width="66.15" Height="18.9" Text="500 :" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text18" Left="75.6" Top="122.85" Width="37.8" Height="18.9" Text="[Table3.MotK]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text23" Left="198.45" Top="122.85" Width="37.8" Height="18.9" Text="[Table3.NamTram]" Format="Custom" Format.Format="### ### ##0.##" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 11pt"/>
+      <TextObject Name="Text13" Top="151.2" Width="132.3" Height="18.9" Text="Tổng tiền cuối ca :" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 11pt, style=Bold"/>
+      <LineObject Name="Line3" Top="189" Width="264.6" Border.Style="DashDot"/>
+      <LineObject Name="Line4" Top="192.45" Width="264.6" Border.Style="DashDot"/>
+      <TextObject Name="Text25" Left="132.3" Top="151.2" Width="132.3" Height="18.9" Text="[Table3.TienMatCuoiCa]" Format="Custom" Format.Format="### ### ### ###.##" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 11pt, style=Bold"/>
+    </ColumnFooterBand>
+  </ReportPage>
+</Report>

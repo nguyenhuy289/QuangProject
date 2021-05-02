@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/30/2010 22:28:10" ReportInfo.Modified="08/03/2010 12:57:20" ReportInfo.CreatorVersion="1.0.203.0">
+  <Dictionary>
+    <TableDataSource Name="dtCompany" ReferenceName="Data.dtCompany" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="dtInfo" ReferenceName="Data.dtInfo" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="ID2" DataType="System.String"/>
+      <Column Name="LoaiPhieu" DataType="System.String"/>
+      <Column Name="NgayLap" DataType="System.DateTime"/>
+      <Column Name="NgayHT" DataType="System.DateTime"/>
+      <Column Name="HinhThuc" DataType="System.String"/>
+      <Column Name="MaNV" DataType="System.String"/>
+      <Column Name="MaKH" DataType="System.String"/>
+      <Column Name="DiaChi" DataType="System.String"/>
+      <Column Name="DienThoai" DataType="System.String"/>
+      <Column Name="NguoiNop" DataType="System.String"/>
+      <Column Name="LyDo" DataType="System.String"/>
+      <Column Name="ThueSuat" DataType="System.String"/>
+      <Column Name="TongTien" DataType="System.Double"/>
+      <Column Name="TienThue" DataType="System.Double"/>
+      <Column Name="TongThanhToan" DataType="System.Double"/>
+      <Column Name="ThuChi" DataType="System.String"/>
+      <Column Name="Huy" DataType="System.Boolean" BindableControl="CheckBox"/>
+      <Column Name="Field1" DataType="System.String"/>
+      <Column Name="Field2" DataType="System.String"/>
+      <Column Name="Field3" DataType="System.String"/>
+      <Column Name="Field4" DataType="System.String"/>
+      <Column Name="Field5" DataType="System.String"/>
+      <Column Name="TenKH" DataType="System.String"/>
+      <Column Name="TenNVLap" DataType="System.String"/>
+      <Column Name="TienChu" DataType="System.String"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" LeftMargin="5" TopMargin="5" RightMargin="5" BottomMargin="5" MirrorMargins="true" FirstPageSource="1" OtherPagesSource="1">
+    <ReportTitleBand Name="ReportTitle1" Width="756" Height="1077.3">
+      <TextObject Name="Text1" Left="481.95" Width="264.6" Height="56.7" Text="Mẫu 01-TT &#13;&#10;(Ban hành theo QĐ số 48/2006/QĐ-BTC&#13;&#10; Ngày 14/09/2006 của Bộ trưởng BTC)" HorzAlign="Right"/>
+      <TextObject Name="Text2" Left="18.9" Width="442.22" Height="18.9" Text="[dtCompany.CompanyName]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="18.9" Top="18.9" Width="442.22" Height="18.9" Text="[dtCompany.CompanyAddress]"/>
+      <TextObject Name="Text4" Left="170.1" Top="47.25" Width="330.75" Height="37.8" Text="PHIẾU CHI TIỀN MẶT" HorzAlign="Center" Font="Arial, 18pt, style=Bold"/>
+      <TextObject Name="Text5" Left="510.3" Top="56.7" Width="85.05" Height="18.9" Text="Liên số:" HorzAlign="Right"/>
+      <TextObject Name="Text6" Left="510.3" Top="75.6" Width="85.05" Height="18.9" Text="Số phiếu:" HorzAlign="Right"/>
+      <TextObject Name="Text7" Left="510.3" Top="94.5" Width="85.05" Height="18.9" Text="Tài khoản:" HorzAlign="Right"/>
+      <TextObject Name="Text9" Left="229.79" Top="75.6" Width="63.11" Height="18.9" Text="Ngày [Date]" Format="Custom" Format.Format="dd" HorzAlign="Right"/>
+      <TextObject Name="Text11" Left="18.9" Top="103.95" Width="111.88" Height="18.9" Text="Người nhận tiền:"/>
+      <TextObject Name="Text12" Left="-9450" Top="-9450" Width="85.05" Height="18.9" Text="Người nộp:" Font="Tahoma, 10pt"/>
+      <TextObject Name="Text13" Left="18.9" Top="125.87" Width="85.05" Height="18.9" Text="Đơn vị:"/>
+      <TextObject Name="Text14" Left="18.9" Top="149.68" Width="85.05" Height="18.9" Text="Địa chỉ:"/>
+      <TextObject Name="Text15" Left="18.9" Top="176.51" Width="85.05" Height="18.9" Text="Lý do chi:"/>
+      <TextObject Name="Text16" Left="18.9" Top="201.82" Width="85.05" Height="18.9" Text="Số tiền:"/>
+      <TextObject Name="Text17" Left="18.9" Top="229.03" Width="85.05" Height="18.9" Text="Bằng chữ:"/>
+      <TextObject Name="Text18" Left="18.9" Top="255.1" Width="85.05" Height="18.9" Text="Kèm theo:"/>
+      <TextObject Name="Text19" Left="132.3" Top="255.1" Width="105.09" Height="18.9" Text="chứng từ gốc"/>
+      <TextObject Name="Text20" Left="291.82" Top="75.6" Width="65.76" Height="18.9" Text="tháng [Date]" Format="Custom" Format.Format="MM" HorzAlign="Right"/>
+      <TextObject Name="Text21" Left="359.1" Top="75.6" Width="85.01" Height="18.9" Text="năm [Date] " Format="Custom" Format.Format="yyyy"/>
+      <TextObject Name="Text22" Left="47.25" Top="274" Width="85.05" Height="18.9" Text="Giám Đốc&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text23" Left="283.5" Top="274" Width="151.2" Height="18.9" Text="Kế toán trưởng&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text24" Left="548.1" Top="274" Width="151.2" Height="18.9" Text="Người lập phiếu&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text25" Left="18.9" Top="366.6" Width="232.1" Height="18.9" Text="Đã nhận đủ số tiền ( Viết bằng chữ):"/>
+      <TextObject Name="Text26" Left="47.25" Top="409.67" Width="132.3" Height="18.9" Text="Người nhận tiền&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text27" Left="519.75" Top="409.67" Width="132.3" Height="18.9" Text="Thủ quỹ&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text28" Left="481.95" Top="545.82" Width="264.6" Height="56.7" Text="Mẫu 01-TT &#13;&#10;(Ban hành theo QĐ số 48/2006/QĐ-BTC&#13;&#10; Ngày 14/09/2006 của Bộ trưởng BTC)" HorzAlign="Right"/>
+      <TextObject Name="Text29" Left="18.9" Top="545.82" Width="429.36" Height="18.9" Text="[dtCompany.CompanyName]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text30" Left="18.9" Top="564.72" Width="429.36" Height="18.9" Text="[dtCompany.CompanyAddress]"/>
+      <TextObject Name="Text31" Left="170.1" Top="593.07" Width="330.75" Height="37.8" Text="PHIẾU CHI TIỀN MẶT" HorzAlign="Center" Font="Arial, 18pt, style=Bold"/>
+      <TextObject Name="Text32" Left="510.3" Top="602.52" Width="85.05" Height="18.9" Text="Liên số:" HorzAlign="Right"/>
+      <TextObject Name="Text33" Left="510.3" Top="621.42" Width="85.05" Height="18.9" Text="Số phiếu:" HorzAlign="Right"/>
+      <TextObject Name="Text34" Left="510.3" Top="640.32" Width="85.05" Height="18.9" Text="Tài khoản:" HorzAlign="Right"/>
+      <TextObject Name="Text36" Left="18.9" Top="659.22" Width="113.04" Height="18.9" Text="Người nhận tiền:"/>
+      <TextObject Name="Text37" Left="18.9" Top="681.9" Width="85.05" Height="18.9" Text="Đơn vị:"/>
+      <TextObject Name="Text38" Left="18.9" Top="705.33" Width="85.05" Height="18.9" Text="Địa chỉ:"/>
+      <TextObject Name="Text39" Left="18.9" Top="730.26" Width="85.05" Height="18.9" Text="Lý do chi:"/>
+      <TextObject Name="Text40" Left="18.9" Top="753.67" Width="85.05" Height="18.9" Text="Số tiền:"/>
+      <TextObject Name="Text41" Left="18.9" Top="778.98" Width="85.05" Height="18.9" Text="Bằng chữ:"/>
+      <TextObject Name="Text42" Left="18.9" Top="802.39" Width="85.05" Height="18.9" Text="Kèm theo:"/>
+      <TextObject Name="Text43" Left="132.3" Top="802.39" Width="103.94" Height="18.9" Text="chứng từ gốc"/>
+      <TextObject Name="Text46" Left="47.25" Top="821.29" Width="85.05" Height="18.9" Text="Giám Đốc&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text47" Left="283.5" Top="821.29" Width="151.2" Height="18.9" Text="Kế toán trưởng&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text48" Left="548.1" Top="821.29" Width="151.2" Height="18.9" Text="Người lập phiếu&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text49" Left="18.9" Top="924.86" Width="236.25" Height="18.9" Text="Đã nhận đủ số tiền ( Viết bằng chữ):"/>
+      <TextObject Name="Text50" Left="47.25" Top="969.07" Width="132.3" Height="18.9" Text="Người nhận tiền&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text51" Left="519.75" Top="969.07" Width="132.3" Height="18.9" Text="Thủ quỹ&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <LineObject Name="Line1" Left="-6.8" Top="533.07" Width="765.45" Border.Style="Dot" Diagonal="true"/>
+      <TextObject Name="Text8" Left="598.37" Top="75.98" Width="137.58" Height="18.9" Text="[dtInfo.ID2]"/>
+      <TextObject Name="Text10" Left="136.61" Top="103.95" Width="314.47" Height="18.9" Text="[dtInfo.NguoiNop]"/>
+      <TextObject Name="Text58" Left="136.61" Top="149.68" Width="315.22" Height="18.9" Text="[dtInfo.DiaChi]"/>
+      <TextObject Name="Text59" Left="136.61" Top="176.51" Width="610.42" Height="18.9" Text="[dtInfo.LyDo]"/>
+      <TextObject Name="Text60" Left="136.61" Top="201.82" Width="178.79" Height="18.9" Text="[dtInfo.TongThanhToan]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text61" Left="551.89" Top="344.39" Width="150.39" Height="18.9" Text="[dtInfo.TenNVLap]" HorzAlign="Center"/>
+      <TextObject Name="Text62" Left="136.61" Top="125.87" Width="316.71" Height="18.9" Text="[dtInfo.TenKH]"/>
+      <TextObject Name="Text63" Left="485.4" Top="390.42" Width="63.11" Height="18.9" Text="Ngày [Date]" Format="Custom" Format.Format="dd" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/>
+      <TextObject Name="Text64" Left="547.43" Top="390.42" Width="65.76" Height="18.9" Text="tháng [Date]" Format="Custom" Format.Format="MM" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/>
+      <TextObject Name="Text65" Left="614.71" Top="390.42" Width="85.01" Height="18.9" Text="năm [Date] " Format="Custom" Format.Format="yyyy" Font="Arial, 10pt, style=Italic"/>
+      <TextObject Name="Text66" Left="225.34" Top="632.38" Width="63.11" Height="18.9" Text="Ngày [Date]" Format="Custom" Format.Format="dd" HorzAlign="Right"/>
+      <TextObject Name="Text67" Left="287.37" Top="632.38" Width="65.76" Height="18.9" Text="tháng [Date]" Format="Custom" Format.Format="MM" HorzAlign="Right"/>
+      <TextObject Name="Text68" Left="354.65" Top="632.38" Width="85.01" Height="18.9" Text="năm [Date] " Format="Custom" Format.Format="yyyy"/>
+      <TextObject Name="Text69" Left="136.14" Top="659.99" Width="314.47" Height="18.9" Text="[dtInfo.NguoiNop]"/>
+      <TextObject Name="Text70" Left="136.14" Top="706.1" Width="315.22" Height="18.9" Text="[dtInfo.DiaChi]"/>
+      <TextObject Name="Text71" Left="136.14" Top="731.03" Width="610.42" Height="18.9" Text="[dtInfo.LyDo]"/>
+      <TextObject Name="Text72" Left="136.14" Top="754.44" Width="178.79" Height="18.9" Text="[dtInfo.TongThanhToan]" Format="Custom" Format.Format="#,##0.##" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text73" Left="136.14" Top="682.67" Width="316.71" Height="18.9" Text="[dtInfo.TenKH]"/>
+      <TextObject Name="Text74" Left="597.26" Top="621.82" Width="137.58" Height="18.9" Text="[dtInfo.ID2]"/>
+      <TextObject Name="Text75" Left="548.87" Top="902.25" Width="150.39" Height="18.9" Text="[dtInfo.TenNVLap]" HorzAlign="Center"/>
+      <TextObject Name="Text76" Left="487.27" Top="949.86" Width="63.11" Height="18.9" Text="Ngày [Date]" Format="Custom" Format.Format="dd" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/>
+      <TextObject Name="Text77" Left="549.3" Top="949.86" Width="65.76" Height="18.9" Text="tháng [Date]" Format="Custom" Format.Format="MM" HorzAlign="Right" Font="Arial, 10pt, style=Italic"/>
+      <TextObject Name="Text78" Left="616.58" Top="949.86" Width="85.01" Height="18.9" Text="năm [Date] " Format="Custom" Format.Format="yyyy" Font="Arial, 10pt, style=Italic"/>
+      <TextObject Name="Text35" Left="136.84" Top="226.01" Width="601.32" Height="18.9" Text="[dtInfo.TienChu]"/>
+      <TextObject Name="Text44" Left="255.15" Top="366.6" Width="485.28" Height="18.9" Text="[dtInfo.TienChu]"/>
+      <TextObject Name="Text79" Left="258.91" Top="925.25" Width="485.28" Height="18.9" Text="[dtInfo.TienChu]"/>
+      <TextObject Name="Text80" Left="136.13" Top="777.51" Width="601.32" Height="18.9" Text="[dtInfo.TienChu]"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="1081.3" Width="756"/>
+    <DataBand Name="Data1" Top="1085.3" Width="756"/>
+    <PageFooterBand Name="PageFooter1" Top="1089.3" Width="756"/>
+  </ReportPage>
+</Report>

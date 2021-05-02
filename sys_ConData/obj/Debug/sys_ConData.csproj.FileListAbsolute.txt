@@ -1,0 +1,30 @@
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\bin\Debug\sys_ConData.exe.config
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\bin\Debug\sys_ConData.exe
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\bin\Debug\sys_ConData.pdb
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.csprojAssemblyReference.cache
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.CauHinhDataSQL.resources
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.Properties.Resources.resources
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.csproj.GenerateResource.cache
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.csproj.CoreCompileInputs.cache
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.exe
+C:\Users\BigBoss\Google Drive\Develop\Morning Software\sys_ConData\obj\Debug\sys_ConData.pdb
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\bin\Debug\sys_ConData.exe.config
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\bin\Debug\sys_ConData.exe
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\bin\Debug\sys_ConData.pdb
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.csprojAssemblyReference.cache
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.CauHinhDataSQL.resources
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.Properties.Resources.resources
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.csproj.GenerateResource.cache
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.csproj.CoreCompileInputs.cache
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.exe
+\\192.168.31.1\下载\Hello\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.pdb
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\bin\Debug\sys_ConData.exe.config
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\bin\Debug\sys_ConData.exe
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\bin\Debug\sys_ConData.pdb
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.csprojAssemblyReference.cache
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.CauHinhDataSQL.resources
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.Properties.Resources.resources
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.csproj.GenerateResource.cache
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.csproj.CoreCompileInputs.cache
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.exe
+C:\Users\BigBoss\Google Drive\Develop\CanXeMoDa\CanXe\sys_ConData\obj\Debug\sys_ConData.pdb

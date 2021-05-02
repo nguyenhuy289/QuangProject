@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/23/2010 09:32:46" ReportInfo.Modified="06/08/2018 01:17:18" ReportInfo.CreatorVersion="1.2.47.0">
+  <Dictionary>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="CustID" DataType="System.String"/>
+      <Column Name="CustName" DataType="System.String"/>
+      <Column Name="EmpID" DataType="System.String"/>
+      <Column Name="EmpName" DataType="System.String"/>
+      <Column Name="EmpID1" DataType="System.String"/>
+      <Column Name="EmpName1" DataType="System.String"/>
+      <Column Name="AreaID" DataType="System.String"/>
+      <Column Name="AreaName" DataType="System.String"/>
+      <Column Name="TableID" DataType="System.String"/>
+      <Column Name="Cost" DataType="System.Double"/>
+      <Column Name="CostAmount" DataType="System.Double"/>
+      <Column Name="VAT" DataType="System.String"/>
+      <Column Name="VATAmount" DataType="System.Double"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="PaidAmount" DataType="System.Double"/>
+      <Column Name="TotalAmount" DataType="System.Double"/>
+      <Column Name="TotalPayment" DataType="System.Double"/>
+      <Column Name="Tel" DataType="System.String"/>
+      <Column Name="Address" DataType="System.String"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="DateCreate" DataType="System.DateTime"/>
+      <Column Name="LanIn" DataType="System.String"/>
+      <Column Name="NgayVao" DataType="System.DateTime"/>
+      <Column Name="GioVao" DataType="System.Int32"/>
+      <Column Name="PhutVao" DataType="System.Int32"/>
+      <Column Name="SoGio" DataType="System.Double"/>
+      <Column Name="NgayRa" DataType="System.DateTime"/>
+      <Column Name="GioRa" DataType="System.Int32"/>
+      <Column Name="PhutRa" DataType="System.Int32"/>
+      <Column Name="TienGio" DataType="System.Double"/>
+      <Column Name="Field3" DataType="System.DateTime"/>
+      <Column Name="Field4" DataType="System.String"/>
+      <Column Name="Field5" DataType="System.String"/>
+      <Column Name="TongCong" DataType="System.String"/>
+      <Column Name="Column" Alias="ID2" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+    <TableDataSource Name="Table2" ReferenceName="Data.Table2" DataType="System.Int32" Enabled="true">
+      <Column Name="ID1" DataType="System.String"/>
+      <Column Name="DishID" DataType="System.String"/>
+      <Column Name="DishName" DataType="System.String"/>
+      <Column Name="Qty" DataType="System.Double"/>
+      <Column Name="Price" DataType="System.Double"/>
+      <Column Name="Amount" DataType="System.Double"/>
+      <Column Name="Note" DataType="System.String"/>
+      <Column Name="Status" DataType="System.Int32"/>
+      <Column Name="Discount" DataType="System.Double"/>
+      <Column Name="DiscAmount" DataType="System.Double"/>
+      <Column Name="STTu" DataType="System.Int32"/>
+      <Column Name="DVT" DataType="System.String"/>
+      <Column Name="Column" Alias="ID2" Enabled="false" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+    <TableDataSource Name="TongSL" ReferenceName="Data.TongSL" DataType="System.Int32" Enabled="true">
+      <Column Name="TongSL" DataType="System.Double"/>
+      <Column Name="Column" Alias="ID2" Enabled="false" DataType="System.Int32" Calculated="true" Expression=""/>
+      <Column Name="Column1" Enabled="false" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+    <Total Name="Total" Expression="[Table2.Qty]" Evaluator="Data1" ResetAfterPrint="false"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="40" PaperHeight="30" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0">
+    <DataBand Name="Data1" Width="151.2" Height="113.4" CanGrow="true" DataSource="Table2">
+      <TextObject Name="TenMon" Left="1" Top="19.8" Width="141.75" CanGrow="true" Text="[Table2.DishName]" VertAlign="Center" Font="Adobe Devanagari, 8pt" TextFill.Color="LightGray"/>
+      <TextObject Name="GhiChu" Left="1" Top="20.7" Width="141.75" CanGrow="true" Text="[Table2.Note]" Font="Arial, 7pt"/>
+      <TextObject Name="Text7" Left="88.61" Top="26.15" Width="56.7" CanGrow="true" Text="[Table2.Price] đ" Format="Custom" Format.Format="### ### ##0" HorzAlign="Right" Font="Arial, 7pt"/>
+      <TextObject Name="Text11" Left="106.95" Top="25.25" Width="37.8" CanGrow="true" Text="[Date]" Format="Custom" Format.Format="dd.MM" HorzAlign="Right" Font="Arial, 6.75pt"/>
+      <TextObject Name="Text9" Left="106.95" Top="24.25" Width="37.8" CanGrow="true" Text="[Date]" Format="Custom" Format.Format="HH:mm" HorzAlign="Right" Font="Arial, 6.75pt"/>
+      <TextObject Name="Text3" Left="16.35" Top="-1" Width="28.35" Height="11.34" Text="[Table1.TableID]" HorzAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text8" Left="43.05" Top="-1" Width="47.25" Height="11.34" CanGrow="true" Text="Ly [Row#]/[TongSL.TongSL]" HorzAlign="Right" Font="Arial, 7pt">
+        <Formats>
+          <GeneralFormat/>
+          <GeneralFormat/>
+        </Formats>
+      </TextObject>
+      <TextObject Name="Text10" Top="-1" Width="18.9" Height="11.34" Text="IN" Font="Arial, 8pt" TextFill.Color="Gray"/>
+      <PictureObject Name="Picture1" Left="96.6" Top="-1.1" Width="47.25" Height="18.9" Image="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"/>
+      <LineObject Name="Line1" Top="22.8" Width="141.75" Border.Style="DashDot" Diagonal="true"/>
+    </DataBand>
+  </ReportPage>
+</Report>

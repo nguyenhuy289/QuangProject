@@ -1,0 +1,354 @@
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csprojAssemblyReference.cache
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Login.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Manager.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Properties.Resources.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.GenerateResource.cache
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CoreCompileInputs.cache
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe.config
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.pdb
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.pdb
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CopyComplete
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSHangHoa.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSKhachHang.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe.licenses
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\C1.Common.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\C1.Win.C1FlexGrid.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FlexGridControl.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sg_control4.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_NhapKho.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_DonDatHang.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_BanHang.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_ChuyenKho.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_XuatKho.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiTra.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_KiemKe.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_NhapXuatTon.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiThu.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_NganQuy.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TonKho.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangXuat.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoChuongTrinh.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangNhap.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoNhom.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ChiTien.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ThuTien.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoHoaDon.resources
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.dll
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.pdb
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.exe.config
+C:\Users\BigBoss\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_Utility.4.exe
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe.config
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.pdb
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\C1.Common.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\C1.Win.C1FlexGrid.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\FlexGridControl.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\sg_control4.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\sys_Utility.4.exe
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.pdb
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.exe.config
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csprojAssemblyReference.cache
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiTra.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_KiemKe.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_NhapXuatTon.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiThu.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TonKho.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangXuat.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoChuongTrinh.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangNhap.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoNhom.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ChiTien.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_ChuyenKho.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ThuTien.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoHoaDon.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_NhapKho.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_DonDatHang.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_BanHang.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSHangHoa.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSKhachHang.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Login.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Manager.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Properties.Resources.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.GenerateResource.cache
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe.licenses
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CoreCompileInputs.cache
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CopyComplete
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.pdb
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTienHangCho.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_XuatKho.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TongHopThuChi.resources
+D:\DriveGoogle\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.SYS_DauKy.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe.config
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.pdb
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\C1.Common.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\C1.Win.C1FlexGrid.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FlexGridControl.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sg_control4.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_Utility.4.exe
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.pdb
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.exe.config
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csprojAssemblyReference.cache
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiTra.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_KiemKe.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_NhapXuatTon.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiThu.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TongHopThuChi.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TonKho.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangXuat.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoChuongTrinh.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangNhap.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoNhom.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTienHangCho.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.SYS_DauKy.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ChiTien.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_ChuyenKho.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ThuTien.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoHoaDon.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_XuatKho.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_NhapKho.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_DonDatHang.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_BanHang.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSHangHoa.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSKhachHang.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Login.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Manager.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Properties.Resources.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.GenerateResource.cache
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe.licenses
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CoreCompileInputs.cache
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CopyComplete
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.pdb
+D:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_KetQuaKinhDoanh.resources
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Designer.exe
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.Bars.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.Editor.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.Install.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\EnvDTE.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\stdole.dll
+D:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Microsoft.MSXML.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe.config
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.exe
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\QuangProject.pdb
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\C1.Common.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\C1.Win.C1FlexGrid.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\Designer.exe
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraBars.v18.1.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.Bars.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.Editor.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FastReport.Install.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\FlexGridControl.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sg_control4.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_Utility.4.exe
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Data.v18.1.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Utils.v18.1.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraBars.v18.1.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.pdb
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\sys_ConData.exe.config
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csprojAssemblyReference.cache
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoHoaDon.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoChuongTrinh.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiTra.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_KetQuaKinhDoanh.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_NhapXuatTon.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_CongNoPhaiThu.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TongHopThuChi.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_KiemKe.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_TonKho.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangXuat.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangNhap.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTietHangTheoNhom.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BC_ChiTienHangCho.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.SYS_DauKy.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ChiTien.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_ChuyenKho.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TC_ThuTien.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_XuatKho.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.TK_NhapKho.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_DonDatHang.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.BH_BanHang.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSHangHoa.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.DM_DSKhachHang.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Login.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Manager.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.Properties.Resources.resources
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.GenerateResource.cache
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe.licenses
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CoreCompileInputs.cache
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.csproj.CopyComplete
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.exe
+E:\Google Drive\Develop\QuangProject\QuangProject\obj\Debug\QuangProject.pdb

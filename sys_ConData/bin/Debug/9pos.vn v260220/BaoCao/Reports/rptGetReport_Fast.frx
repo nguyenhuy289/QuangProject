@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="07/23/2010 09:32:46" ReportInfo.Modified="08/09/2010 15:28:52" ReportInfo.CreatorVersion="1.0.203.0">
+  <Dictionary>
+    <TableDataSource Name="Info" ReferenceName="Data.Info" Enabled="true">
+      <Column Name="DateCreate" DataType="System.DateTime"/>
+      <Column Name="NVLapPhieu" DataType="System.String"/>
+      <Column Name="NVLapPhieuName" DataType="System.String"/>
+      <Column Name="NVPhucVu" DataType="System.String"/>
+      <Column Name="NVPhucVuName" DataType="System.String"/>
+      <Column Name="TotalAmount" DataType="System.Double"/>
+      <Column Name="TotalPayment" DataType="System.Double"/>
+    </TableDataSource>
+    <TableDataSource Name="DiaChi" ReferenceName="Data.DiaChi" Enabled="true">
+      <Column Name="CompanyName" DataType="System.String"/>
+      <Column Name="CompanyAddress" DataType="System.String"/>
+      <Column Name="Tel" DataType="System.String"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" LeftMargin="0" TopMargin="0" FirstPageSource="15" OtherPagesSource="15" Guides="4.49,248.03,248.21,3.03,3.01,141.37,165.54,142.92,264.65,142.85,265.36">
+    <ReportTitleBand Name="ReportTitle1" Width="756" Height="1.51"/>
+    <PageHeaderBand Name="PageHeader1" Top="5.51" Width="756" Height="105.84" Guides="6.05,24.95,31.01,49.91,49.89,68.79,87.69,86.15,105.05,67.27,86.17,86.94,105.84">
+      <TextObject Name="Text1" Left="4.49" Top="6.05" Width="243.54" Height="18.9" Text="[DiaChi.CompanyName]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text2" Left="4.49" Top="31.01" Width="243.72" Height="18.9" Text="Thu ngân: [Info.NVLapPhieuName]"/>
+      <TextObject Name="Text3" Left="3.03" Top="49.89" Width="244.99" Height="18.9" Text="Ngày tạo: [Info.DateCreate]" Format="Custom" Format.Format="dd/MM/yyyy"/>
+      <TextObject Name="Text4" Left="3.01" Top="68.79" Width="138.36" Height="18.9" Text="Tổng tiền(trước CK):" Padding="0, 0, 0, 0"/>
+      <TextObject Name="Text5" Left="3" Top="86.15" Width="162.54" Height="18.9" Text="Tổng thanh toán(sau CK):" Padding="0, 0, 0, 0"/>
+      <TextObject Name="Text8" Left="142.92" Top="67.27" Width="121.73" Height="18.9" Text="[Info.TotalAmount]" Format="Custom" Format.Format="#,##0" HorzAlign="Right" WordWrap="false" Font="Arial, 10pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text6" Left="142.85" Top="86.94" Width="122.51" Height="18.9" Text="[Info.TotalPayment]" Format="Custom" Format.Format="#,##0" HorzAlign="Right" WordWrap="false" Font="Arial, 10pt, style=Bold" Trimming="EllipsisCharacter"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="115.35" Width="756" DataSource="Info"/>
+    <ColumnFooterBand Name="ColumnFooter1" Top="119.35" Width="756"/>
+    <PageFooterBand Name="PageFooter1" Top="123.35" Width="756" Height="0.75"/>
+  </ReportPage>
+</Report>
