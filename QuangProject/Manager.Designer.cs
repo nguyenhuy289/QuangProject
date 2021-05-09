@@ -57,16 +57,25 @@
             this.báoCáoCôngNợPhảiTrảChoNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.ngânQuỹToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kếtQuảKinhDoanhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lãiLỗHiệnTịaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.sg_Grid2 = new sg_control4.sg_Grid();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.sg_Grid1 = new sg_control4.sg_Grid();
-            this.btn_DieuChinh_HangCho = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.g_BC = new sg_control4.sg_Grid();
-            this.kếtQuảKinhDoanhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txt_LaiLoHienTai = new DevExpress.XtraEditors.TextEdit();
+            this.txt_GiaTriTonKho = new DevExpress.XtraEditors.TextEdit();
+            this.txt_CongNoPhaiTra = new DevExpress.XtraEditors.TextEdit();
+            this.txt_CongNoPhaiThu = new DevExpress.XtraEditors.TextEdit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btn_CapNhatKho = new DevExpress.XtraEditors.SimpleButton();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
@@ -77,6 +86,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.g_BC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_LaiLoHienTai.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_GiaTriTonKho.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_CongNoPhaiTra.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_CongNoPhaiThu.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -213,7 +226,8 @@
             this.báoCáoCôngNợPhảiTrảChoNhàCungCấpToolStripMenuItem,
             this.toolStripMenuItem7,
             this.ngânQuỹToolStripMenuItem,
-            this.kếtQuảKinhDoanhToolStripMenuItem});
+            this.kếtQuảKinhDoanhToolStripMenuItem,
+            this.lãiLỗHiệnTịaToolStripMenuItem});
             this.báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
             this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(69, 23);
             this.báoCáoToolStripMenuItem.Text = "Báo cáo";
@@ -299,12 +313,26 @@
             this.ngânQuỹToolStripMenuItem.Text = "Tổng hợp Thu Chi";
             this.ngânQuỹToolStripMenuItem.Click += new System.EventHandler(this.ngânQuỹToolStripMenuItem_Click);
             // 
+            // kếtQuảKinhDoanhToolStripMenuItem
+            // 
+            this.kếtQuảKinhDoanhToolStripMenuItem.Name = "kếtQuảKinhDoanhToolStripMenuItem";
+            this.kếtQuảKinhDoanhToolStripMenuItem.Size = new System.Drawing.Size(354, 24);
+            this.kếtQuảKinhDoanhToolStripMenuItem.Text = "Kết quả kinh doanh";
+            this.kếtQuảKinhDoanhToolStripMenuItem.Click += new System.EventHandler(this.kếtQuảKinhDoanhToolStripMenuItem_Click);
+            // 
+            // lãiLỗHiệnTịaToolStripMenuItem
+            // 
+            this.lãiLỗHiệnTịaToolStripMenuItem.Name = "lãiLỗHiệnTịaToolStripMenuItem";
+            this.lãiLỗHiệnTịaToolStripMenuItem.Size = new System.Drawing.Size(354, 24);
+            this.lãiLỗHiệnTịaToolStripMenuItem.Text = "Lãi lỗ hiện tại";
+            this.lãiLỗHiệnTịaToolStripMenuItem.Click += new System.EventHandler(this.lãiLỗHiệnTịaToolStripMenuItem_Click);
+            // 
             // simpleButton1
             // 
             this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Location = new System.Drawing.Point(1170, 37);
+            this.simpleButton1.Location = new System.Drawing.Point(1084, 39);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(168, 68);
             this.simpleButton1.TabIndex = 1;
@@ -316,7 +344,7 @@
             this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Location = new System.Drawing.Point(961, 37);
+            this.simpleButton2.Location = new System.Drawing.Point(910, 39);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(168, 68);
             this.simpleButton2.TabIndex = 2;
@@ -398,17 +426,6 @@
             this.sg_Grid1.StyleInfo = resources.GetString("sg_Grid1.StyleInfo");
             this.sg_Grid1.TabIndex = 0;
             // 
-            // btn_DieuChinh_HangCho
-            // 
-            this.btn_DieuChinh_HangCho.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_DieuChinh_HangCho.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DieuChinh_HangCho.Appearance.Options.UseFont = true;
-            this.btn_DieuChinh_HangCho.Location = new System.Drawing.Point(748, 37);
-            this.btn_DieuChinh_HangCho.Name = "btn_DieuChinh_HangCho";
-            this.btn_DieuChinh_HangCho.Size = new System.Drawing.Size(168, 68);
-            this.btn_DieuChinh_HangCho.TabIndex = 10;
-            this.btn_DieuChinh_HangCho.Text = "Điều chỉnh hàng chờ";
-            // 
             // groupControl2
             // 
             this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -447,20 +464,150 @@
             this.g_BC.StyleInfo = resources.GetString("g_BC.StyleInfo");
             this.g_BC.TabIndex = 0;
             // 
-            // kếtQuảKinhDoanhToolStripMenuItem
+            // txt_LaiLoHienTai
             // 
-            this.kếtQuảKinhDoanhToolStripMenuItem.Name = "kếtQuảKinhDoanhToolStripMenuItem";
-            this.kếtQuảKinhDoanhToolStripMenuItem.Size = new System.Drawing.Size(354, 24);
-            this.kếtQuảKinhDoanhToolStripMenuItem.Text = "Kết quả kinh doanh";
-            this.kếtQuảKinhDoanhToolStripMenuItem.Click += new System.EventHandler(this.kếtQuảKinhDoanhToolStripMenuItem_Click);
+            this.txt_LaiLoHienTai.EditValue = "0";
+            this.txt_LaiLoHienTai.Location = new System.Drawing.Point(641, 69);
+            this.txt_LaiLoHienTai.Name = "txt_LaiLoHienTai";
+            this.txt_LaiLoHienTai.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
+            this.txt_LaiLoHienTai.Properties.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.txt_LaiLoHienTai.Properties.Appearance.Options.UseFont = true;
+            this.txt_LaiLoHienTai.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_LaiLoHienTai.Properties.Appearance.Options.UseTextOptions = true;
+            this.txt_LaiLoHienTai.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txt_LaiLoHienTai.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_LaiLoHienTai.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_LaiLoHienTai.Properties.Mask.EditMask = "#,###,###,##0";
+            this.txt_LaiLoHienTai.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txt_LaiLoHienTai.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txt_LaiLoHienTai.Size = new System.Drawing.Size(202, 36);
+            this.txt_LaiLoHienTai.TabIndex = 25;
+            // 
+            // txt_GiaTriTonKho
+            // 
+            this.txt_GiaTriTonKho.EditValue = "0";
+            this.txt_GiaTriTonKho.Location = new System.Drawing.Point(433, 69);
+            this.txt_GiaTriTonKho.Name = "txt_GiaTriTonKho";
+            this.txt_GiaTriTonKho.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
+            this.txt_GiaTriTonKho.Properties.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.txt_GiaTriTonKho.Properties.Appearance.Options.UseFont = true;
+            this.txt_GiaTriTonKho.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_GiaTriTonKho.Properties.Appearance.Options.UseTextOptions = true;
+            this.txt_GiaTriTonKho.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txt_GiaTriTonKho.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_GiaTriTonKho.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_GiaTriTonKho.Properties.Mask.EditMask = "#,###,###,##0";
+            this.txt_GiaTriTonKho.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txt_GiaTriTonKho.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txt_GiaTriTonKho.Size = new System.Drawing.Size(202, 36);
+            this.txt_GiaTriTonKho.TabIndex = 26;
+            // 
+            // txt_CongNoPhaiTra
+            // 
+            this.txt_CongNoPhaiTra.EditValue = "0";
+            this.txt_CongNoPhaiTra.Location = new System.Drawing.Point(17, 69);
+            this.txt_CongNoPhaiTra.Name = "txt_CongNoPhaiTra";
+            this.txt_CongNoPhaiTra.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
+            this.txt_CongNoPhaiTra.Properties.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.txt_CongNoPhaiTra.Properties.Appearance.Options.UseFont = true;
+            this.txt_CongNoPhaiTra.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_CongNoPhaiTra.Properties.Appearance.Options.UseTextOptions = true;
+            this.txt_CongNoPhaiTra.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txt_CongNoPhaiTra.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_CongNoPhaiTra.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_CongNoPhaiTra.Properties.Mask.EditMask = "#,###,###,##0";
+            this.txt_CongNoPhaiTra.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txt_CongNoPhaiTra.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txt_CongNoPhaiTra.Size = new System.Drawing.Size(202, 36);
+            this.txt_CongNoPhaiTra.TabIndex = 28;
+            // 
+            // txt_CongNoPhaiThu
+            // 
+            this.txt_CongNoPhaiThu.EditValue = "0";
+            this.txt_CongNoPhaiThu.Location = new System.Drawing.Point(225, 69);
+            this.txt_CongNoPhaiThu.Name = "txt_CongNoPhaiThu";
+            this.txt_CongNoPhaiThu.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
+            this.txt_CongNoPhaiThu.Properties.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.txt_CongNoPhaiThu.Properties.Appearance.Options.UseFont = true;
+            this.txt_CongNoPhaiThu.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_CongNoPhaiThu.Properties.Appearance.Options.UseTextOptions = true;
+            this.txt_CongNoPhaiThu.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txt_CongNoPhaiThu.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_CongNoPhaiThu.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_CongNoPhaiThu.Properties.Mask.EditMask = "#,###,###,##0";
+            this.txt_CongNoPhaiThu.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txt_CongNoPhaiThu.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txt_CongNoPhaiThu.Size = new System.Drawing.Size(202, 36);
+            this.txt_CongNoPhaiThu.TabIndex = 27;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label1.Location = new System.Drawing.Point(13, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 20);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "CN phải trả";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label2.Location = new System.Drawing.Point(221, 46);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 20);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "CN phải thu";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label3.Location = new System.Drawing.Point(429, 46);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 20);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Giá trị tồn kho";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label4.Location = new System.Drawing.Point(637, 46);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(111, 20);
+            this.label4.TabIndex = 32;
+            this.label4.Text = "Lãi lỗ (hiện tại)";
+            // 
+            // btn_CapNhatKho
+            // 
+            this.btn_CapNhatKho.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_CapNhatKho.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CapNhatKho.Appearance.Options.UseFont = true;
+            this.btn_CapNhatKho.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.btn_CapNhatKho.Location = new System.Drawing.Point(1258, 39);
+            this.btn_CapNhatKho.Name = "btn_CapNhatKho";
+            this.btn_CapNhatKho.Size = new System.Drawing.Size(80, 68);
+            this.btn_CapNhatKho.TabIndex = 33;
+            this.btn_CapNhatKho.Text = "Kho";
+            this.btn_CapNhatKho.Click += new System.EventHandler(this.btn_CapNhatKho_Click);
             // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 709);
+            this.Controls.Add(this.btn_CapNhatKho);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txt_CongNoPhaiTra);
+            this.Controls.Add(this.txt_CongNoPhaiThu);
+            this.Controls.Add(this.txt_GiaTriTonKho);
+            this.Controls.Add(this.txt_LaiLoHienTai);
             this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.btn_DieuChinh_HangCho);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.groupControl4);
             this.Controls.Add(this.simpleButton2);
@@ -483,6 +630,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.g_BC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_LaiLoHienTai.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_GiaTriTonKho.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_CongNoPhaiTra.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_CongNoPhaiThu.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -523,10 +674,19 @@
         private sg_control4.sg_Grid sg_Grid2;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private sg_control4.sg_Grid sg_Grid1;
-        private DevExpress.XtraEditors.SimpleButton btn_DieuChinh_HangCho;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private sg_control4.sg_Grid g_BC;
         private System.Windows.Forms.ToolStripMenuItem đầuKỳToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kếtQuảKinhDoanhToolStripMenuItem;
+        private DevExpress.XtraEditors.TextEdit txt_LaiLoHienTai;
+        private DevExpress.XtraEditors.TextEdit txt_GiaTriTonKho;
+        private DevExpress.XtraEditors.TextEdit txt_CongNoPhaiTra;
+        private DevExpress.XtraEditors.TextEdit txt_CongNoPhaiThu;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ToolStripMenuItem lãiLỗHiệnTịaToolStripMenuItem;
+        private DevExpress.XtraEditors.SimpleButton btn_CapNhatKho;
     }
 }

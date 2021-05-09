@@ -41,6 +41,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txt_MaNhom = new DevExpress.XtraEditors.TextEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txt_DonGia4 = new DevExpress.XtraEditors.TextEdit();
             this.label11 = new System.Windows.Forms.Label();
             this.cbo_CTrinh = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -71,8 +73,6 @@
             this.cbo_Nhom_BC = new System.Windows.Forms.ComboBox();
             this.chk_Hang_BC = new System.Windows.Forms.CheckBox();
             this.g_HH = new sg_control4.sg_Grid();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txt_DonGia4 = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.g_NH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -80,6 +80,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt_MaNhom.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_DonGia4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_SLToiThieu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_GiaVon.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_DonGia3.Properties)).BeginInit();
@@ -93,7 +94,6 @@
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Find.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.g_HH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_DonGia4.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // g_NH
@@ -277,6 +277,36 @@
             this.groupControl2.TabIndex = 3;
             this.groupControl2.Text = "Hàng hóa";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label12.Location = new System.Drawing.Point(20, 153);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(70, 18);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "Giá bán 4";
+            // 
+            // txt_DonGia4
+            // 
+            this.txt_DonGia4.EditValue = "0";
+            this.txt_DonGia4.Enabled = false;
+            this.txt_DonGia4.Location = new System.Drawing.Point(123, 150);
+            this.txt_DonGia4.Name = "txt_DonGia4";
+            this.txt_DonGia4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_DonGia4.Properties.Appearance.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txt_DonGia4.Properties.Appearance.Options.UseFont = true;
+            this.txt_DonGia4.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_DonGia4.Properties.Appearance.Options.UseTextOptions = true;
+            this.txt_DonGia4.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txt_DonGia4.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_DonGia4.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_DonGia4.Properties.Mask.EditMask = "##,###,##0";
+            this.txt_DonGia4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txt_DonGia4.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txt_DonGia4.Size = new System.Drawing.Size(96, 24);
+            this.txt_DonGia4.TabIndex = 24;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -323,7 +353,7 @@
             this.txt_SLToiThieu.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txt_SLToiThieu.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.txt_SLToiThieu.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_SLToiThieu.Properties.Mask.EditMask = "##,##0";
+            this.txt_SLToiThieu.Properties.Mask.EditMask = "##,###,##0";
             this.txt_SLToiThieu.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txt_SLToiThieu.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txt_SLToiThieu.Size = new System.Drawing.Size(175, 24);
@@ -374,7 +404,7 @@
             this.txt_GiaVon.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txt_GiaVon.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.txt_GiaVon.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_GiaVon.Properties.Mask.EditMask = "##,##0";
+            this.txt_GiaVon.Properties.Mask.EditMask = "##,###,##0";
             this.txt_GiaVon.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txt_GiaVon.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txt_GiaVon.Size = new System.Drawing.Size(175, 24);
@@ -404,7 +434,7 @@
             this.txt_DonGia3.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txt_DonGia3.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.txt_DonGia3.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_DonGia3.Properties.Mask.EditMask = "##,##0";
+            this.txt_DonGia3.Properties.Mask.EditMask = "##,###,##0";
             this.txt_DonGia3.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txt_DonGia3.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txt_DonGia3.Size = new System.Drawing.Size(96, 24);
@@ -444,7 +474,7 @@
             this.txt_DonGia1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txt_DonGia1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.txt_DonGia1.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_DonGia1.Properties.Mask.EditMask = "##,##0";
+            this.txt_DonGia1.Properties.Mask.EditMask = "##,###,##0";
             this.txt_DonGia1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txt_DonGia1.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txt_DonGia1.Size = new System.Drawing.Size(96, 24);
@@ -464,7 +494,7 @@
             this.txt_DonGia2.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txt_DonGia2.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.txt_DonGia2.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_DonGia2.Properties.Mask.EditMask = "##,##0";
+            this.txt_DonGia2.Properties.Mask.EditMask = "##,###,##0";
             this.txt_DonGia2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txt_DonGia2.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txt_DonGia2.Size = new System.Drawing.Size(96, 24);
@@ -676,36 +706,6 @@
             this.g_HH.TabIndex = 0;
             this.g_HH.MouseDown += new System.Windows.Forms.MouseEventHandler(this.g_HH_MouseDown);
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.label12.Location = new System.Drawing.Point(20, 153);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(70, 18);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "Giá bán 4";
-            // 
-            // txt_DonGia4
-            // 
-            this.txt_DonGia4.EditValue = "0";
-            this.txt_DonGia4.Enabled = false;
-            this.txt_DonGia4.Location = new System.Drawing.Point(123, 150);
-            this.txt_DonGia4.Name = "txt_DonGia4";
-            this.txt_DonGia4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_DonGia4.Properties.Appearance.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.txt_DonGia4.Properties.Appearance.Options.UseFont = true;
-            this.txt_DonGia4.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_DonGia4.Properties.Appearance.Options.UseTextOptions = true;
-            this.txt_DonGia4.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txt_DonGia4.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_DonGia4.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txt_DonGia4.Properties.Mask.EditMask = "##,##0";
-            this.txt_DonGia4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.txt_DonGia4.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.txt_DonGia4.Size = new System.Drawing.Size(96, 24);
-            this.txt_DonGia4.TabIndex = 24;
-            // 
             // DM_DSHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -729,6 +729,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_DonGia4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_SLToiThieu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_GiaVon.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_DonGia3.Properties)).EndInit();
@@ -744,7 +745,6 @@
             this.groupControl4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Find.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.g_HH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_DonGia4.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

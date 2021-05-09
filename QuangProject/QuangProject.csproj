@@ -116,6 +116,12 @@
     <Compile Include="BC_KetQuaKinhDoanh.Designer.cs">
       <DependentUpon>BC_KetQuaKinhDoanh.cs</DependentUpon>
     </Compile>
+    <Compile Include="BC_LaiLoHienTai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BC_LaiLoHienTai.Designer.cs">
+      <DependentUpon>BC_LaiLoHienTai.cs</DependentUpon>
+    </Compile>
     <Compile Include="BC_NhapXuatTon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BC_KetQuaKinhDoanh.resx">
       <DependentUpon>BC_KetQuaKinhDoanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BC_LaiLoHienTai.resx">
+      <DependentUpon>BC_LaiLoHienTai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BC_NhapXuatTon.resx">
       <DependentUpon>BC_NhapXuatTon.cs</DependentUpon>

@@ -36,10 +36,28 @@ namespace QuangProject
             else
             {
             }
-                GetData_DS_HangTonKho();
+
+            //GetData_DS_HangTonKho();
             GetData_DS_HangCho_TheoKH();
             GetData_DS_HangCho();
+            GetData_LaiLo_HienTai();
         }
+        private void GetData_LaiLo_HienTai()
+        {
+            Common.obj.Add_NewCommand("BC_LaiLoHienTai", sys_ConData.sys_ConData.cmdType.Store);
+            DataTable table = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
+
+            txt_CongNoPhaiTra.Text = table.Rows[0]["CongNoPhaiTra"].ToString();
+            txt_CongNoPhaiThu.Text = table.Rows[0]["CongNoPhaiThu"].ToString();
+            txt_GiaTriTonKho.Text = table.Rows[0]["GiaTriTonKho"].ToString();
+            txt_LaiLoHienTai.Text = table.Rows[0]["ChenhLech"].ToString();
+
+            if(Conversions.ToDouble(table.Rows[0]["ChenhLech"].ToString()) > 0)
+            {
+                txt_LaiLoHienTai.ForeColor = Color.Blue;
+            }
+        }
+
         private void GetData_DS_HangCho()
         {
             Common.obj.Add_NewCommand("BC_ChiTietHangCho", sys_ConData.sys_ConData.cmdType.Store);
@@ -244,7 +262,7 @@ namespace QuangProject
             frm.ShowDialog();
             GetData_DS_HangCho();
             GetData_DS_HangCho_TheoKH();
-            GetData_DS_HangTonKho();
+            GetData_LaiLo_HienTai();
         }
 
         private void simpleButton2_Click(object sender, EventArgs e)
@@ -253,7 +271,6 @@ namespace QuangProject
             frm.ShowDialog();
             GetData_DS_HangCho();
             GetData_DS_HangCho_TheoKH();
-            GetData_DS_HangTonKho();
         }
 
         private void nhậpKhoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -280,12 +297,14 @@ namespace QuangProject
         {
             TC_ThuTien frm = new TC_ThuTien();
             frm.ShowDialog();
+            GetData_LaiLo_HienTai();
         }
 
         private void phiếuChiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TC_ChiTien frm = new TC_ChiTien();
             frm.ShowDialog();
+            GetData_LaiLo_HienTai();
         }
 
         private void ngânQuỹToolStripMenuItem_Click(object sender, EventArgs e)
@@ -346,6 +365,17 @@ namespace QuangProject
         {
             BC_KetQuaKinhDoanh frm = new BC_KetQuaKinhDoanh();
             frm.ShowDialog();
+        }
+
+        private void lãiLỗHiệnTịaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BC_LaiLoHienTai frm = new BC_LaiLoHienTai();
+            frm.ShowDialog();
+        }
+
+        private void btn_CapNhatKho_Click(object sender, EventArgs e)
+        {
+            GetData_DS_HangTonKho();
         }
     }
 }

@@ -409,7 +409,7 @@ namespace QuangProject
         {
             if (fl_new == true)
             {
-                if (txt_MaPhieu.Text != "")
+                if (txt_MaPhieu.Text != "" & cbo_Kho.aaValueCode.ToString() != "")
                 {
                     if (g_Item.Rows.Count > 0)
                     {
@@ -455,6 +455,14 @@ namespace QuangProject
 
                     }
                     GetData_BC();
+                    cbo_Kho.Enabled = cbo_KH.Enabled = cbo_HH.Enabled = txt_SL.Enabled = simpleButton2.Enabled = simpleButton1.Enabled = false;
+                    Common.obj.Add_NewCommand("Select * from BH_DonHangBan where MaPhieu = @MaPhieu", sys_ConData.sys_ConData.cmdType.Query);
+                    Common.obj.Add_MyParametersCommand("@MaPhieu", SqlDbType.NVarChar, txt_MaPhieu.Text);
+                    dtInfo = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
+                }
+                else
+                {
+                    MessageBox.Show("Bạn chưa chọn kho !", "Thông báo");
                 }
             }
             else
@@ -499,12 +507,13 @@ namespace QuangProject
                         Common.obj.CommitTransaction();
                     }
                     GetData_BC();
+                    cbo_Kho.Enabled = cbo_KH.Enabled = cbo_HH.Enabled = txt_SL.Enabled = simpleButton2.Enabled = simpleButton1.Enabled = false;
+                    Common.obj.Add_NewCommand("Select * from BH_DonHangBan where MaPhieu = @MaPhieu", sys_ConData.sys_ConData.cmdType.Query);
+                    Common.obj.Add_MyParametersCommand("@MaPhieu", SqlDbType.NVarChar, txt_MaPhieu.Text);
+                    dtInfo = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
                 }
             }
-            cbo_Kho.Enabled = cbo_KH.Enabled = cbo_HH.Enabled = txt_SL.Enabled = simpleButton2.Enabled = simpleButton1.Enabled = false;
-            Common.obj.Add_NewCommand("Select * from BH_DonHangBan where MaPhieu = @MaPhieu", sys_ConData.sys_ConData.cmdType.Query);
-            Common.obj.Add_MyParametersCommand("@MaPhieu", SqlDbType.NVarChar, txt_MaPhieu.Text);
-            dtInfo = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
+            
         }
 
         private void cbo_KH_BC_aaItemSelected(object sender, EventArgs e)

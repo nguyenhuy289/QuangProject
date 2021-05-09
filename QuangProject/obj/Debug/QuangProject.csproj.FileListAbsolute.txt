@@ -433,3 +433,4 @@ E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject
 E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.csproj.CopyComplete
 E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.exe
 E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.pdb
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.BC_LaiLoHienTai.resources
