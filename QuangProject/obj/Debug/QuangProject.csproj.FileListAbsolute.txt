@@ -434,3 +434,11 @@ E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject
 E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.exe
 E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.pdb
 E:\Google Drive\Develop\Github\Quang Project\QuangProject\obj\Debug\QuangProject.BC_LaiLoHienTai.resources
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.Bars.dll
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.dll
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.Editor.dll
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.Service.dll
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.DataVisualization.dll
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.Compat.dll
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.xml
+E:\Google Drive\Develop\Github\Quang Project\QuangProject\bin\Debug\FastReport.Service.dll.config

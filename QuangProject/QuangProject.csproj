@@ -51,17 +51,20 @@
     <Reference Include="DevExpress.Utils.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="FastReport">
-      <HintPath>..\..\Thu Vien Rieng cua anh Huy\FastReport.dll</HintPath>
+    <Reference Include="FastReport, Version=2021.2.8.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\FastReport\Framework 4.0\FastReport.dll</HintPath>
     </Reference>
-    <Reference Include="FastReport.Bars">
-      <HintPath>..\..\Thu Vien Rieng cua anh Huy\FastReport.Bars.dll</HintPath>
+    <Reference Include="FastReport.Bars, Version=2021.2.8.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\FastReport\Framework 4.0\FastReport.Bars.dll</HintPath>
     </Reference>
-    <Reference Include="FastReport.Editor">
-      <HintPath>..\..\Thu Vien Rieng cua anh Huy\FastReport.Editor.dll</HintPath>
+    <Reference Include="FastReport.Editor, Version=2021.2.8.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\FastReport\Framework 4.0\FastReport.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="FastReport.Install">
-      <HintPath>..\..\Thu Vien Rieng cua anh Huy\FastReport.Install.dll</HintPath>
+    <Reference Include="FastReport.Service">
+      <HintPath>..\..\..\..\..\FastReport\Framework 4.0\FastReport.Service.dll</HintPath>
     </Reference>
     <Reference Include="FlexGridControl">
       <HintPath>..\..\..\Box Sync\9POS v9.8\FlexGridControl.dll</HintPath>

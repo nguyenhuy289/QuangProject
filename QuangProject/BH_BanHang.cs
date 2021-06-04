@@ -451,7 +451,7 @@ namespace QuangProject
                         Common.obj.Add_MyParametersCommand("@NgayGiao", SqlDbType.NVarChar, dtp_NgayGiao.Value.ToString());
                         Common.obj.ExecCommand_NoReturn(Common.obj.Get_NewCommand());
 
-                        Common.obj.Add_NewCommand("Select MaHang, SL, DonGia, ThanhTien, GhiChu, MaPhieu, PTGiamGia from BH_DonHangBan_Item", sys_ConData.sys_ConData.cmdType.Query);
+                        Common.obj.Add_NewCommand("Select MaHang, SL, DonGia, ThanhTien, GhiChu, MaPhieu, GiaBia, PTGiamGia from BH_DonHangBan_Item", sys_ConData.sys_ConData.cmdType.Query);
                         Common.obj.UpdateTable(Common.obj.Get_NewCommand(), table2);
 
                         MessageBox.Show("Lưu thành công", "Thông báo");
