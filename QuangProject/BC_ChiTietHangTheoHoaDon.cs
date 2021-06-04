@@ -60,6 +60,17 @@ namespace QuangProject
             }
             GetData_BC();
         }
+
+        private void GetKH(String MaPhieu)
+        {
+            Common.obj.Add_NewCommand("Select TenKH from DM_KhachHang a left outer join BH_DonHangBan b on a.MaKH = b.MaKH where b.MaPhieu = @MaPhieu", sys_ConData.sys_ConData.cmdType.Query);
+            Common.obj.Add_MyParametersCommand("@MaPhieu", SqlDbType.NVarChar, MaPhieu);
+            DataTable table = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
+
+            txt_TenKH.Text = "Khách : " +  table.Rows[0][0].ToString();
+
+            
+        }
         private void GetData_BC()
         {
             Common.obj.Add_NewCommand("BC_CT_HangBan", sys_ConData.sys_ConData.cmdType.Store);
@@ -175,6 +186,15 @@ namespace QuangProject
         private void dtpTuNgay_ValueChanged(object sender, EventArgs e)
         {
             GetData_BC();
+        }
+
+        private void g_BC_Click(object sender, EventArgs e)
+        {
+            if (g_BC[g_BC.Row, "MaPhieu"] != null)
+            {
+                GetKH(g_BC[g_BC.Row, "MaPhieu"].ToString());
+            }
+            
         }
     }
 }

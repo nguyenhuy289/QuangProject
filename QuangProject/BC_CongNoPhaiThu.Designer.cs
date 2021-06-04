@@ -139,6 +139,7 @@
             // 
             // dtpDenNgay
             // 
+            this.dtpDenNgay.CustomFormat = "dd/MM/yyyy";
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDenNgay.Location = new System.Drawing.Point(352, 33);
             this.dtpDenNgay.Name = "dtpDenNgay";
@@ -168,6 +169,7 @@
             // 
             // dtpTuNgay
             // 
+            this.dtpTuNgay.CustomFormat = "dd/MM/yyyy";
             this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpTuNgay.Location = new System.Drawing.Point(121, 33);
             this.dtpTuNgay.Name = "dtpTuNgay";

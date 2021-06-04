@@ -1,0 +1,2 @@
+B1. Tạo thêm Column GiaBia ở DM_HangHoa
+B2. Tạo thêm Column GiaBia ở BH_DonHangBan_Item

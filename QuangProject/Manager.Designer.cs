@@ -105,6 +105,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(1350, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // danhMụcToolStripMenuItem
             // 
@@ -585,7 +586,7 @@
             this.btn_CapNhatKho.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_CapNhatKho.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_CapNhatKho.Appearance.Options.UseFont = true;
-            this.btn_CapNhatKho.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.btn_CapNhatKho.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_CapNhatKho.ImageOptions.Image")));
             this.btn_CapNhatKho.Location = new System.Drawing.Point(1258, 39);
             this.btn_CapNhatKho.Name = "btn_CapNhatKho";
             this.btn_CapNhatKho.Size = new System.Drawing.Size(80, 68);

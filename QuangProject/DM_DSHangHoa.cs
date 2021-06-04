@@ -70,7 +70,7 @@ namespace QuangProject
 
         private void btn_New_HangHoa_Click(object sender, EventArgs e)
         {
-            txt_MaHang.Enabled = txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = true;
+            txt_MaHang.Enabled = txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = txt_GiaBia.Enabled = true;
             txt_MaHang.Text = txt_TenHang.Text = "";
             txt_DonGia1.Text = txt_DonGia2.Text = txt_DonGia3.Text = txt_DonGia4.Text = txt_SLToiThieu.Text = txt_GiaVon.Text = "0";
             chk_Hang.Checked = true;
@@ -94,7 +94,7 @@ namespace QuangProject
             {
                 return;
             }
-            txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = true;
+            txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = txt_GiaBia.Enabled = true;
             addnewHH = false;
         }
 
@@ -229,7 +229,7 @@ namespace QuangProject
             {
                 try
                 {
-                    Common.obj.Add_NewCommand("Insert into DM_HangHoa (MaHang, TenHang, MaNhom, SLToiThieu, LoaiHang, GiaVon, DonGia1, DonGia2, DonGia3, DonGia4, SuDung) values (@MaHang, @TenHang, @MaNhom, @SLToiThieu, @LoaiHang, @GiaVon, @DonGia1, @DonGia2, @DonGia3, @DonGia4, @SuDung)", sys_ConData.sys_ConData.cmdType.Query);
+                    Common.obj.Add_NewCommand("Insert into DM_HangHoa (MaHang, TenHang, MaNhom, SLToiThieu, LoaiHang, GiaVon, DonGia1, DonGia2, DonGia3, DonGia4, GiaBia, SuDung) values (@MaHang, @TenHang, @MaNhom, @SLToiThieu, @LoaiHang, @GiaVon, @DonGia1, @DonGia2, @DonGia3, @DonGia4, @GiaBia, @SuDung)", sys_ConData.sys_ConData.cmdType.Query);
                     Common.obj.Add_MyParametersCommand("@MaHang", SqlDbType.NVarChar, txt_MaHang.Text);
                     Common.obj.Add_MyParametersCommand("@TenHang", SqlDbType.NVarChar, txt_TenHang.Text);
                     Common.obj.Add_MyParametersCommand("@MaNhom", SqlDbType.NVarChar, cbo_Nhom.SelectedValue.ToString());
@@ -240,6 +240,7 @@ namespace QuangProject
                     Common.obj.Add_MyParametersCommand("@DonGia2", SqlDbType.Float, txt_DonGia2.Text);
                     Common.obj.Add_MyParametersCommand("@DonGia3", SqlDbType.Float, txt_DonGia3.Text);
                     Common.obj.Add_MyParametersCommand("@DonGia4", SqlDbType.Float, txt_DonGia4.Text);
+                    Common.obj.Add_MyParametersCommand("@GiaBia", SqlDbType.Float, txt_GiaBia.Text);
                     Common.obj.Add_MyParametersCommand("@SuDung", SqlDbType.Bit, Conversions.ToInteger(chk_Hang.Checked));
                     Common.obj.ExecCommand_NoReturn(Common.obj.Get_NewCommand());
                 }
@@ -254,7 +255,7 @@ namespace QuangProject
             {
                 try
                 {
-                    Common.obj.Add_NewCommand("Update DM_HangHoa set TenHang = @TenHang, MaNhom = @MaNhom, SLToiThieu = @SLToiThieu, LoaiHang = @LoaiHang, GiaVon = @GiaVon, DonGia1 = @DonGia1, DonGia2 = @DonGia2, DonGia3 = @DonGia3, DonGia4 = @DonGia4, SuDung = @SuDung  where MaHang = @MaHang", sys_ConData.sys_ConData.cmdType.Query);
+                    Common.obj.Add_NewCommand("Update DM_HangHoa set TenHang = @TenHang, MaNhom = @MaNhom, SLToiThieu = @SLToiThieu, LoaiHang = @LoaiHang, GiaVon = @GiaVon, DonGia1 = @DonGia1, DonGia2 = @DonGia2, DonGia3 = @DonGia3, DonGia4 = @DonGia4, GiaBia = @GiaBia, SuDung = @SuDung  where MaHang = @MaHang", sys_ConData.sys_ConData.cmdType.Query);
                     Common.obj.Add_MyParametersCommand("@MaHang", SqlDbType.NVarChar, txt_MaHang.Text);
                     Common.obj.Add_MyParametersCommand("@TenHang", SqlDbType.NVarChar, txt_TenHang.Text);
                     Common.obj.Add_MyParametersCommand("@MaNhom", SqlDbType.NVarChar, cbo_Nhom.SelectedValue.ToString());
@@ -265,6 +266,7 @@ namespace QuangProject
                     Common.obj.Add_MyParametersCommand("@DonGia2", SqlDbType.Float, txt_DonGia2.Text);
                     Common.obj.Add_MyParametersCommand("@DonGia3", SqlDbType.Float, txt_DonGia3.Text);
                     Common.obj.Add_MyParametersCommand("@DonGia4", SqlDbType.Float, txt_DonGia4.Text);
+                    Common.obj.Add_MyParametersCommand("@GiaBia", SqlDbType.Float, txt_GiaBia.Text);
                     Common.obj.Add_MyParametersCommand("@SuDung", SqlDbType.Bit, Conversions.ToInteger(chk_Hang.Checked));
                     Common.obj.ExecCommand_NoReturn(Common.obj.Get_NewCommand());
                 }
@@ -280,7 +282,7 @@ namespace QuangProject
             FillColorGrid_g_HH();
             g_HH.Show();
             chk_Hang_BC.Checked = true;
-            txt_MaHang.Enabled = txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = false;
+            txt_MaHang.Enabled = txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = txt_GiaBia.Enabled = false;
         }
 
         private void chk_Nhom_BC_CheckedChanged(object sender, EventArgs e)
@@ -344,7 +346,7 @@ namespace QuangProject
                 DataTable table1;
                 try
                 {
-                    Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, LoaiHang from DM_HangHoa where SuDung = @SuDung and MaNhom = @MaNhom", sys_ConData.sys_ConData.cmdType.Query);
+                    Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, GiaBia, LoaiHang from DM_HangHoa where SuDung = @SuDung and MaNhom = @MaNhom", sys_ConData.sys_ConData.cmdType.Query);
                     Common.obj.Add_MyParametersCommand("@SuDung", SqlDbType.NVarChar, 1);
                     Common.obj.Add_MyParametersCommand("@MaNhom", SqlDbType.NVarChar, g_NH[g_NH.Row, "MaNhom"].ToString());
                     table1 = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
@@ -385,6 +387,7 @@ namespace QuangProject
                 txt_DonGia2.Text = table.Rows[0]["DonGia2"].ToString();
                 txt_DonGia3.Text = table.Rows[0]["DonGia3"].ToString();
                 txt_DonGia4.Text = table.Rows[0]["DonGia4"].ToString();
+                txt_GiaBia.Text = table.Rows[0]["GiaBia"].ToString();
                 chk_Hang.Checked = Conversions.ToBoolean(table.Rows[0]["SuDung"]);
                 cbo_CTrinh.Text = table.Rows[0]["LoaiHang"].ToString();
 
@@ -393,7 +396,7 @@ namespace QuangProject
                 Common.obj.Add_MyParametersCommand("@MaNhom", SqlDbType.NVarChar, txt_MaNhom.Text);
                 DataTable table1 = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
                 txt_TenNhom.Text = table1.Rows[0]["TenNhom"].ToString();
-                txt_MaHang.Enabled = txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = false;
+                txt_MaHang.Enabled = txt_TenHang.Enabled = txt_DonGia1.Enabled = txt_DonGia2.Enabled = txt_DonGia3.Enabled = txt_DonGia4.Enabled = txt_SLToiThieu.Enabled = txt_GiaVon.Enabled = chk_Hang.Enabled = txt_GiaBia.Enabled = false;
 
             }
         }
@@ -433,7 +436,7 @@ namespace QuangProject
         {
             try
             {
-                Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, LoaiHang from DM_HangHoa where SuDung = @SuDung", sys_ConData.sys_ConData.cmdType.Query);
+                Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, GiaBia, LoaiHang from DM_HangHoa where SuDung = @SuDung", sys_ConData.sys_ConData.cmdType.Query);
                 Common.obj.Add_MyParametersCommand("@SuDung", SqlDbType.NVarChar, 1);
                 dtDSHH = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
             }
@@ -449,7 +452,7 @@ namespace QuangProject
         {
             try
             {
-                Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, LoaiHang from DM_HangHoa where SuDung = @SuDung", sys_ConData.sys_ConData.cmdType.Query);
+                Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, GiaBia, LoaiHang from DM_HangHoa where SuDung = @SuDung", sys_ConData.sys_ConData.cmdType.Query);
                 Common.obj.Add_MyParametersCommand("@SuDung", SqlDbType.NVarChar, 0);
                 dtDSHH1 = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
             }
@@ -509,7 +512,10 @@ namespace QuangProject
                 g_HH.Cols[6].Caption = "Giá 4";
                 g_HH.Cols[6].Width = 65;
                 g_HH.Cols[6].Format = "##,##0";
-                g_HH.Cols[7].Caption = "Loại hàng";
+                g_HH.Cols[7].Caption = "Giá bìa";
+                g_HH.Cols[7].Width = 65;
+                g_HH.Cols[7].Format = "##,##0";
+                g_HH.Cols[8].Caption = "Loại hàng";
                 g_HH.Rows[0].Height = 30;
                 g_HH.Rows[0].TextAlign = C1.Win.C1FlexGrid.TextAlignEnum.CenterCenter;
 
@@ -542,7 +548,7 @@ namespace QuangProject
         {
             try
             {
-                Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, LoaiHang from DM_HangHoa where SuDung = @SuDung and (MaNhom = @MaNhom or @MaNhom = '') and ((MaHang like '%' + @Find + '%') or (TenHang like '%' + @Find + '%'))", sys_ConData.sys_ConData.cmdType.Query);
+                Common.obj.Add_NewCommand("Select MaHang, TenHang, DonGia1, DonGia2, DonGia3, DonGia4, GiaBia, LoaiHang from DM_HangHoa where SuDung = @SuDung and (MaNhom = @MaNhom or @MaNhom = '') and ((MaHang like '%' + @Find + '%') or (TenHang like '%' + @Find + '%'))", sys_ConData.sys_ConData.cmdType.Query);
                 Common.obj.Add_MyParametersCommand("@SuDung", SqlDbType.Bit, Conversions.ToInteger(chk_Hang_BC.Checked));
                 Common.obj.Add_MyParametersCommand("@Find", SqlDbType.NVarChar, txt_Find.Text);
                 Common.obj.Add_MyParametersCommand("@MaNhom", SqlDbType.NVarChar, cbo_Nhom_BC.SelectedValue.ToString());

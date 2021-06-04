@@ -73,6 +73,8 @@
             this.cbo_Nhom_BC = new System.Windows.Forms.ComboBox();
             this.chk_Hang_BC = new System.Windows.Forms.CheckBox();
             this.g_HH = new sg_control4.sg_Grid();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txt_GiaBia = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.g_NH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -94,6 +96,7 @@
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Find.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.g_HH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_GiaBia.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // g_NH
@@ -246,6 +249,8 @@
             this.groupControl2.Appearance.Options.UseFont = true;
             this.groupControl2.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 11F);
             this.groupControl2.AppearanceCaption.Options.UseFont = true;
+            this.groupControl2.Controls.Add(this.label13);
+            this.groupControl2.Controls.Add(this.txt_GiaBia);
             this.groupControl2.Controls.Add(this.label12);
             this.groupControl2.Controls.Add(this.txt_DonGia4);
             this.groupControl2.Controls.Add(this.label11);
@@ -311,7 +316,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.label11.Location = new System.Drawing.Point(276, 154);
+            this.label11.Location = new System.Drawing.Point(317, 154);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(50, 18);
             this.label11.TabIndex = 23;
@@ -324,7 +329,7 @@
             this.cbo_CTrinh.Items.AddRange(new object[] {
             "Normal",
             "Promotion"});
-            this.cbo_CTrinh.Location = new System.Drawing.Point(342, 151);
+            this.cbo_CTrinh.Location = new System.Drawing.Point(383, 151);
             this.cbo_CTrinh.Name = "cbo_CTrinh";
             this.cbo_CTrinh.Size = new System.Drawing.Size(212, 26);
             this.cbo_CTrinh.TabIndex = 9;
@@ -333,7 +338,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.label10.Location = new System.Drawing.Point(276, 105);
+            this.label10.Location = new System.Drawing.Point(317, 105);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(79, 18);
             this.label10.TabIndex = 21;
@@ -343,7 +348,7 @@
             // 
             this.txt_SLToiThieu.EditValue = "0";
             this.txt_SLToiThieu.Enabled = false;
-            this.txt_SLToiThieu.Location = new System.Drawing.Point(379, 102);
+            this.txt_SLToiThieu.Location = new System.Drawing.Point(420, 102);
             this.txt_SLToiThieu.Name = "txt_SLToiThieu";
             this.txt_SLToiThieu.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_SLToiThieu.Properties.Appearance.ForeColor = System.Drawing.SystemColors.Highlight;
@@ -363,7 +368,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.label9.Location = new System.Drawing.Point(276, 129);
+            this.label9.Location = new System.Drawing.Point(317, 129);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 18);
             this.label9.TabIndex = 19;
@@ -374,7 +379,7 @@
             this.cbo_Nhom.DisplayMember = "TenNhom";
             this.cbo_Nhom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_Nhom.FormattingEnabled = true;
-            this.cbo_Nhom.Location = new System.Drawing.Point(342, 126);
+            this.cbo_Nhom.Location = new System.Drawing.Point(383, 126);
             this.cbo_Nhom.Name = "cbo_Nhom";
             this.cbo_Nhom.Size = new System.Drawing.Size(212, 26);
             this.cbo_Nhom.TabIndex = 8;
@@ -384,7 +389,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.label8.Location = new System.Drawing.Point(276, 81);
+            this.label8.Location = new System.Drawing.Point(317, 81);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(57, 18);
             this.label8.TabIndex = 17;
@@ -394,7 +399,7 @@
             // 
             this.txt_GiaVon.EditValue = "0";
             this.txt_GiaVon.Enabled = false;
-            this.txt_GiaVon.Location = new System.Drawing.Point(379, 78);
+            this.txt_GiaVon.Location = new System.Drawing.Point(420, 78);
             this.txt_GiaVon.Name = "txt_GiaVon";
             this.txt_GiaVon.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_GiaVon.Properties.Appearance.ForeColor = System.Drawing.SystemColors.Highlight;
@@ -504,7 +509,7 @@
             // 
             this.btn_Save_HangHoa.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Save_HangHoa.Appearance.Options.UseFont = true;
-            this.btn_Save_HangHoa.Location = new System.Drawing.Point(473, 189);
+            this.btn_Save_HangHoa.Location = new System.Drawing.Point(514, 189);
             this.btn_Save_HangHoa.Name = "btn_Save_HangHoa";
             this.btn_Save_HangHoa.Size = new System.Drawing.Size(81, 38);
             this.btn_Save_HangHoa.TabIndex = 10;
@@ -515,7 +520,7 @@
             // 
             this.btn_New_HangHoa.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_New_HangHoa.Appearance.Options.UseFont = true;
-            this.btn_New_HangHoa.Location = new System.Drawing.Point(212, 189);
+            this.btn_New_HangHoa.Location = new System.Drawing.Point(253, 189);
             this.btn_New_HangHoa.Name = "btn_New_HangHoa";
             this.btn_New_HangHoa.Size = new System.Drawing.Size(81, 38);
             this.btn_New_HangHoa.TabIndex = 13;
@@ -526,7 +531,7 @@
             // 
             this.btn_Edit_HangHoa.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Edit_HangHoa.Appearance.Options.UseFont = true;
-            this.btn_Edit_HangHoa.Location = new System.Drawing.Point(299, 189);
+            this.btn_Edit_HangHoa.Location = new System.Drawing.Point(340, 189);
             this.btn_Edit_HangHoa.Name = "btn_Edit_HangHoa";
             this.btn_Edit_HangHoa.Size = new System.Drawing.Size(81, 38);
             this.btn_Edit_HangHoa.TabIndex = 12;
@@ -537,7 +542,7 @@
             // 
             this.btn_Del_HangHoa.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Del_HangHoa.Appearance.Options.UseFont = true;
-            this.btn_Del_HangHoa.Location = new System.Drawing.Point(386, 189);
+            this.btn_Del_HangHoa.Location = new System.Drawing.Point(427, 189);
             this.btn_Del_HangHoa.Name = "btn_Del_HangHoa";
             this.btn_Del_HangHoa.Size = new System.Drawing.Size(81, 38);
             this.btn_Del_HangHoa.TabIndex = 11;
@@ -706,6 +711,36 @@
             this.g_HH.TabIndex = 0;
             this.g_HH.MouseDown += new System.Windows.Forms.MouseEventHandler(this.g_HH_MouseDown);
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label13.Location = new System.Drawing.Point(20, 183);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(51, 18);
+            this.label13.TabIndex = 27;
+            this.label13.Text = "Giá bìa";
+            // 
+            // txt_GiaBia
+            // 
+            this.txt_GiaBia.EditValue = "0";
+            this.txt_GiaBia.Enabled = false;
+            this.txt_GiaBia.Location = new System.Drawing.Point(123, 180);
+            this.txt_GiaBia.Name = "txt_GiaBia";
+            this.txt_GiaBia.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_GiaBia.Properties.Appearance.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txt_GiaBia.Properties.Appearance.Options.UseFont = true;
+            this.txt_GiaBia.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_GiaBia.Properties.Appearance.Options.UseTextOptions = true;
+            this.txt_GiaBia.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txt_GiaBia.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_GiaBia.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txt_GiaBia.Properties.Mask.EditMask = "##,###,##0";
+            this.txt_GiaBia.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txt_GiaBia.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txt_GiaBia.Size = new System.Drawing.Size(96, 24);
+            this.txt_GiaBia.TabIndex = 26;
+            // 
             // DM_DSHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -745,6 +780,7 @@
             this.groupControl4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Find.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.g_HH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_GiaBia.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -795,5 +831,7 @@
         private System.Windows.Forms.ComboBox cbo_Nhom_BC;
         private System.Windows.Forms.Label label12;
         private DevExpress.XtraEditors.TextEdit txt_DonGia4;
+        private System.Windows.Forms.Label label13;
+        private DevExpress.XtraEditors.TextEdit txt_GiaBia;
     }
 }

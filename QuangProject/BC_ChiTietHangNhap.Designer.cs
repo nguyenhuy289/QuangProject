@@ -273,6 +273,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(352, 33);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -301,6 +302,7 @@
             // 
             // dptTuNgay
             // 
+            this.dptTuNgay.CustomFormat = "dd/MM/yyyy";
             this.dptTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dptTuNgay.Location = new System.Drawing.Point(121, 33);
             this.dptTuNgay.Name = "dptTuNgay";

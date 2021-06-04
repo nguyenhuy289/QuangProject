@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BC_ChiTietHangTheoHoaDon));
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.g_BC = new sg_control4.sg_Grid();
@@ -39,6 +40,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.dtpTuNgay = new System.Windows.Forms.DateTimePicker();
+            this.txt_TenKH = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.g_BC)).BeginInit();
@@ -83,6 +86,7 @@
             this.g_BC.Size = new System.Drawing.Size(1316, 510);
             this.g_BC.StyleInfo = resources.GetString("g_BC.StyleInfo");
             this.g_BC.TabIndex = 0;
+            this.g_BC.Click += new System.EventHandler(this.g_BC_Click);
             // 
             // groupControl1
             // 
@@ -92,6 +96,7 @@
             this.groupControl1.Appearance.Options.UseFont = true;
             this.groupControl1.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 11F);
             this.groupControl1.AppearanceCaption.Options.UseFont = true;
+            this.groupControl1.Controls.Add(this.txt_TenKH);
             this.groupControl1.Controls.Add(this.cbo_HangHoa);
             this.groupControl1.Controls.Add(this.cbo_MaKH);
             this.groupControl1.Controls.Add(this.cbo_NhomHang);
@@ -215,6 +220,7 @@
             // 
             // dtpDenNgay
             // 
+            this.dtpDenNgay.CustomFormat = "dd/MM/yyyy";
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDenNgay.Location = new System.Drawing.Point(352, 33);
             this.dtpDenNgay.Name = "dtpDenNgay";
@@ -244,12 +250,23 @@
             // 
             // dtpTuNgay
             // 
+            this.dtpTuNgay.CustomFormat = "dd/MM/yyyy";
             this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpTuNgay.Location = new System.Drawing.Point(121, 33);
             this.dtpTuNgay.Name = "dtpTuNgay";
             this.dtpTuNgay.Size = new System.Drawing.Size(116, 25);
             this.dtpTuNgay.TabIndex = 9;
             this.dtpTuNgay.ValueChanged += new System.EventHandler(this.dtpTuNgay_ValueChanged);
+            // 
+            // txt_TenKH
+            // 
+            this.txt_TenKH.AutoSize = true;
+            this.txt_TenKH.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txt_TenKH.ForeColor = System.Drawing.Color.Red;
+            this.txt_TenKH.Location = new System.Drawing.Point(679, 39);
+            this.txt_TenKH.Name = "txt_TenKH";
+            this.txt_TenKH.Size = new System.Drawing.Size(0, 19);
+            this.txt_TenKH.TabIndex = 16;
             // 
             // BC_ChiTietHangTheoHoaDon
             // 
@@ -285,5 +302,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dtpTuNgay;
+        private System.Windows.Forms.Label txt_TenKH;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

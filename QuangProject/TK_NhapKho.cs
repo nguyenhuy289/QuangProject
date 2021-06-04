@@ -289,12 +289,26 @@ namespace QuangProject
 
         private void cbo_HangHoa_aaItemSelected(object sender, EventArgs e)
         {
-            if (cbo_HangHoa.aaValueCode.ToString() != "")
+            if (cbo_LoaiNX.aaValueCode.ToString() == "NHTL")
             {
-                Common.obj.Add_NewCommand("Select * from DM_HangHoa where MaHang = @MaHang", sys_ConData.sys_ConData.cmdType.Query);
-                Common.obj.Add_MyParametersCommand("@MaHang", SqlDbType.NVarChar, cbo_HangHoa.aaValueCode.ToString());
-                DataTable dataHangHoaByBarCode = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
-                txt_DonGia.Text = dataHangHoaByBarCode.Rows[0]["GiaVon"].ToString();
+                if (cbo_HangHoa.aaValueCode.ToString() != "")
+                {
+                    Common.obj.Add_NewCommand("BH_LayGiaBan_TheoHangHoa", sys_ConData.sys_ConData.cmdType.Store);
+                    Common.obj.Add_MyParametersCommand("@MaKH", SqlDbType.NVarChar, cbo_KH.aaValueCode.ToString());
+                    Common.obj.Add_MyParametersCommand("@MaHang", SqlDbType.NVarChar, cbo_HangHoa.aaValueCode.ToString());
+                    DataTable dataGiaHangHoa = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
+                    txt_DonGia.Text = dataGiaHangHoa.Rows[0]["PriceDish"].ToString();
+                }
+            }
+            else
+            {
+                if (cbo_HangHoa.aaValueCode.ToString() != "")
+                {
+                    Common.obj.Add_NewCommand("Select * from DM_HangHoa where MaHang = @MaHang", sys_ConData.sys_ConData.cmdType.Query);
+                    Common.obj.Add_MyParametersCommand("@MaHang", SqlDbType.NVarChar, cbo_HangHoa.aaValueCode.ToString());
+                    DataTable dataHangHoaByBarCode = Common.obj.ExecCommand_ReturnTable(Common.obj.Get_NewCommand());
+                    txt_DonGia.Text = dataHangHoaByBarCode.Rows[0]["GiaVon"].ToString();
+                }
             }
         }
 

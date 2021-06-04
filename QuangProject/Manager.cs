@@ -35,12 +35,13 @@ namespace QuangProject
             }
             else
             {
+                //GetData_DS_HangTonKho();
+                GetData_DS_HangCho_TheoKH();
+                GetData_DS_HangCho();
+                GetData_LaiLo_HienTai();
             }
 
-            //GetData_DS_HangTonKho();
-            GetData_DS_HangCho_TheoKH();
-            GetData_DS_HangCho();
-            GetData_LaiLo_HienTai();
+            
         }
         private void GetData_LaiLo_HienTai()
         {
@@ -247,19 +248,19 @@ namespace QuangProject
         private void danhSáchKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DM_DSKhachHang frm = new DM_DSKhachHang();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void hàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DM_DSHangHoa frm = new DM_DSHangHoa();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             BH_BanHang frm = new BH_BanHang();
-            frm.ShowDialog();
+            frm.Show();
             GetData_DS_HangCho();
             GetData_DS_HangCho_TheoKH();
             GetData_LaiLo_HienTai();
@@ -268,7 +269,7 @@ namespace QuangProject
         private void simpleButton2_Click(object sender, EventArgs e)
         {
             BH_DonDatHang frm = new BH_DonDatHang();
-            frm.ShowDialog();
+            frm.Show();
             GetData_DS_HangCho();
             GetData_DS_HangCho_TheoKH();
         }
@@ -276,106 +277,111 @@ namespace QuangProject
         private void nhậpKhoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TK_NhapKho frm = new TK_NhapKho();
-            frm.ShowDialog();
+            frm.Show();
             GetData_DS_HangTonKho();
         }
 
         private void xuấtKhoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TK_XuatKho frm = new TK_XuatKho();
-            frm.ShowDialog();
+            frm.Show();
             GetData_DS_HangTonKho();
         }
 
         private void báoCáoChiTiếtHàngTồnKhoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_TonKho frm = new BC_TonKho();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void phiếuThuToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TC_ThuTien frm = new TC_ThuTien();
-            frm.ShowDialog();
+            frm.Show();
             GetData_LaiLo_HienTai();
         }
 
         private void phiếuChiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TC_ChiTien frm = new TC_ChiTien();
-            frm.ShowDialog();
+            frm.Show();
             GetData_LaiLo_HienTai();
         }
 
         private void ngânQuỹToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_TongHopThuChi frm = new BC_TongHopThuChi();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoTồnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_NhapXuatTon frm = new BC_NhapXuatTon();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void đầuKỳToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SYS_DauKy frm = new SYS_DauKy();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoCôngNợPhảiThuCủaKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_CongNoPhaiThu frm = new BC_CongNoPhaiThu();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoCôngNợPhảiTrảChoNhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_CongNoPhaiTra frm = new BC_CongNoPhaiTra();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoChiTiếtHàngBánTheoHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_ChiTietHangTheoHoaDon frm = new BC_ChiTietHangTheoHoaDon();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoChiTiếtHàngBánTheoNhómHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_ChiTietHangTheoNhom frm = new BC_ChiTietHangTheoNhom();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoChiTiếtHàngBánTheoNhómHàngChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_ChiTietHangTheoChuongTrinh frm = new BC_ChiTietHangTheoChuongTrinh();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void báoCáoKiểmKêToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_KiemKe frm = new BC_KiemKe();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void kếtQuảKinhDoanhToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_KetQuaKinhDoanh frm = new BC_KetQuaKinhDoanh();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void lãiLỗHiệnTịaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BC_LaiLoHienTai frm = new BC_LaiLoHienTai();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void btn_CapNhatKho_Click(object sender, EventArgs e)
         {
             GetData_DS_HangTonKho();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

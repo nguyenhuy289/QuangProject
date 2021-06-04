@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BC_ChiTietHangTheoNhom));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BC_ChiTietHangTheoChuongTrinh));
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.g_BC = new sg_control4.sg_Grid();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
@@ -215,6 +215,7 @@
             // 
             // dtpDenNgay
             // 
+            this.dtpDenNgay.CustomFormat = "dd/MM/yyyy";
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDenNgay.Location = new System.Drawing.Point(352, 33);
             this.dtpDenNgay.Name = "dtpDenNgay";
@@ -244,6 +245,7 @@
             // 
             // dtpTuNgay
             // 
+            this.dtpTuNgay.CustomFormat = "dd/MM/yyyy";
             this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpTuNgay.Location = new System.Drawing.Point(121, 33);
             this.dtpTuNgay.Name = "dtpTuNgay";
@@ -251,7 +253,7 @@
             this.dtpTuNgay.TabIndex = 9;
             this.dtpTuNgay.ValueChanged += new System.EventHandler(this.dtpTuNgay_ValueChanged);
             // 
-            // BC_ChiTietHangTheoNhom
+            // BC_ChiTietHangTheoChuongTrinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -259,7 +261,7 @@
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.groupControl4);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "BC_ChiTietHangTheoNhom";
+            this.Name = "BC_ChiTietHangTheoChuongTrinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo chi tiết hàng bán theo chương trình";
             this.Load += new System.EventHandler(this.BC_ChiTietHangTheoChuongTrinh_Load);

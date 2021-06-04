@@ -104,8 +104,8 @@
             // 
             // groupControl2
             // 
-            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.groupControl2.Appearance.Options.UseFont = true;
             this.groupControl2.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 11F);
@@ -336,9 +336,9 @@
             this.groupControl1.Controls.Add(this.label6);
             this.groupControl1.Controls.Add(this.label5);
             this.groupControl1.Controls.Add(this.dptTuNgay);
-            this.groupControl1.Location = new System.Drawing.Point(603, 12);
+            this.groupControl1.Location = new System.Drawing.Point(598, 12);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(735, 156);
+            this.groupControl1.Size = new System.Drawing.Size(740, 156);
             this.groupControl1.TabIndex = 10;
             this.groupControl1.Text = "Điều kiện lọc";
             // 

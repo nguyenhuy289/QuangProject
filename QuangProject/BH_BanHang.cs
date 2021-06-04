@@ -260,16 +260,20 @@ namespace QuangProject
                 g_Item.Cols[7].Width = 100;
                 g_Item.Cols[7].AllowEditing = true;
                 g_Item.Cols[7].Format = "##,##0";
-                g_Item.Cols[8].Caption = "Ghi Chú";
+                g_Item.Cols[8].Caption = "Giá bìa";
                 g_Item.Cols[8].Width = 100;
                 g_Item.Cols[8].AllowEditing = true;
-                g_Item.Cols[8].Visible = true;
-                g_Item.Cols[9].Caption = "Mã Phiếu";
+                g_Item.Cols[8].Format = "##,##0";
+                g_Item.Cols[9].Caption = "Ghi Chú";
                 g_Item.Cols[9].Width = 100;
-                g_Item.Cols[9].AllowEditing = false;
-                g_Item.Cols[9].Visible = false;
-                g_Item.Cols[10].Caption = "Pt giảm giá";
+                g_Item.Cols[9].AllowEditing = true;
+                g_Item.Cols[9].Visible = true;
+                g_Item.Cols[10].Caption = "Mã Phiếu";
+                g_Item.Cols[10].Width = 100;
+                g_Item.Cols[10].AllowEditing = false;
                 g_Item.Cols[10].Visible = false;
+                g_Item.Cols[11].Caption = "Pt giảm giá";
+                g_Item.Cols[11].Visible = false;
                 g_Item.Rows[0].Height = 30;
                 g_Item.Rows[0].TextAlign = C1.Win.C1FlexGrid.TextAlignEnum.CenterCenter;
 

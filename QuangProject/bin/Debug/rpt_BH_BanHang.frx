@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="07/01/2020 00:29:00" ReportInfo.Modified="05/01/2021 11:55:16" ReportInfo.CreatorVersion="2018.1.9.0">
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/01/2020 00:29:00" ReportInfo.Modified="06/04/2021 04:23:43" ReportInfo.CreatorVersion="2021.2.8.0">
   <Dictionary>
     <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
       <Column Name="MaKH" DataType="System.String"/>
@@ -20,11 +20,12 @@
       <Column Name="GhiChu" DataType="System.String"/>
       <Column Name="MaPhieu" DataType="System.String"/>
       <Column Name="PTGiamGia" DataType="System.Double"/>
+      <Column Name="GiaBia" DataType="System.Double"/>
     </TableDataSource>
     <Total Name="TongTien" Expression="[Table2.ThanhTien]" Evaluator="Data1"/>
     <Total Name="TongSL" Expression="[Table2.SL]" Evaluator="Data1"/>
   </Dictionary>
-  <ReportPage Name="Page1" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0">
+  <ReportPage Name="Page1" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" Watermark.Font="Arial, 60pt">
     <ReportTitleBand Name="ReportTitle1" Width="793.8" Height="179.55">
       <TextObject Name="Text1" Left="94.5" Top="28.35" Width="557.55" Height="37.8" Text="PHIẾU BÁN HÀNG" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 26pt, style=Bold"/>
       <TextObject Name="Text2" Left="37.8" Top="94.5" Width="311.85" Height="18.9" Text="Mã Phiếu : [Table1.MaPhieu]" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold"/>
@@ -37,35 +38,35 @@
     <DataBand Name="Data1" Top="225.57" Width="793.8" Height="34.02" DataSource="Table2">
       <TableObject Name="Table4" Left="18.9" Width="746.55" Height="34.02">
         <TableColumn Name="Column8" Width="52.65"/>
-        <TableColumn Name="Column9" Width="90.45"/>
-        <TableColumn Name="Column10" Width="222.75"/>
+        <TableColumn Name="Column9" Width="213.3"/>
+        <TableColumn Name="Column10" Width="99.9"/>
         <TableColumn Name="Column11" Width="62.1"/>
         <TableColumn Name="Column12" Width="99.9"/>
         <TableColumn Name="Column13" Width="118.8"/>
         <TableColumn Name="Column14" Width="99.9"/>
         <TableRow Name="Row2" Height="34.02">
           <TableCell Name="Cell8" Border.Lines="All" Text="[Row#]" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt"/>
-          <TableCell Name="Cell9" Border.Lines="All" Text="[Table2.MaHang]" VertAlign="Center" Font="Times New Roman, 12pt"/>
-          <TableCell Name="Cell10" Border.Lines="All" Text="[Table2.TenHang]" VertAlign="Center" Font="Times New Roman, 12pt"/>
+          <TableCell Name="Cell9" Border.Lines="All" Text="[Table2.TenHang]" VertAlign="Center" Font="Times New Roman, 12pt"/>
+          <TableCell Name="Cell10" Border.Lines="All" Text="[Table2.GiaBia]" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 12pt"/>
           <TableCell Name="Cell11" Border.Lines="All" Text="[Table2.SL]" Format="Custom" Format.Format="##,##0" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 12pt"/>
           <TableCell Name="Cell12" Border.Lines="All" Text="[Table2.DonGia]" Format="Custom" Format.Format="##,##0" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 12pt"/>
           <TableCell Name="Cell13" Border.Lines="All" Text="[Table2.ThanhTien]" Format="Custom" Format.Format="##,##0" HorzAlign="Right" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold"/>
-          <TableCell Name="Cell14" Border.Lines="All" Text="CK - [Table2.PTGiamGia] %" VertAlign="Center" Font="Times New Roman, 12pt"/>
+          <TableCell Name="Cell14" Border.Lines="All" Text="[Table2.GhiChu]" VertAlign="Center" Font="Times New Roman, 12pt"/>
         </TableRow>
       </TableObject>
       <DataHeaderBand Name="DataHeader1" Top="187.55" Width="793.8" Height="34.02">
         <TableObject Name="Table3" Left="18.9" Width="746.55" Height="34.02">
           <TableColumn Name="Column1" Width="52.65"/>
-          <TableColumn Name="Column2" Width="90.45"/>
-          <TableColumn Name="Column3" Width="222.75"/>
+          <TableColumn Name="Column2" Width="213.3"/>
+          <TableColumn Name="Column3" Width="99.9"/>
           <TableColumn Name="Column4" Width="62.1"/>
           <TableColumn Name="Column5" Width="99.9"/>
           <TableColumn Name="Column6" Width="118.8"/>
           <TableColumn Name="Column7" Width="99.9"/>
           <TableRow Name="Row1" Height="34.02">
             <TableCell Name="Cell1" Border.Lines="All" Fill.Color="LightSkyBlue" Text="STT" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
-            <TableCell Name="Cell2" Border.Lines="All" Fill.Color="LightSkyBlue" Text="Mã hàng" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
-            <TableCell Name="Cell3" Border.Lines="All" Fill.Color="LightSkyBlue" Text="Tên hàng" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
+            <TableCell Name="Cell2" Border.Lines="All" Fill.Color="LightSkyBlue" Text="Tên hàng" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
+            <TableCell Name="Cell3" Border.Lines="All" Fill.Color="LightSkyBlue" Text="Giá bìa" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
             <TableCell Name="Cell4" Border.Lines="All" Fill.Color="LightSkyBlue" Text="SL" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
             <TableCell Name="Cell5" Border.Lines="All" Fill.Color="LightSkyBlue" Text="Đơn giá" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
             <TableCell Name="Cell6" Border.Lines="All" Fill.Color="LightSkyBlue" Text="Thành tiền" HorzAlign="Center" VertAlign="Center" Font="Times New Roman, 12pt, style=Bold" TextFill.Color="White"/>
