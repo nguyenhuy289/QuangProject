@@ -271,18 +271,18 @@ namespace QuangProject
 
         private void chk_KH_CheckedChanged(object sender, EventArgs e)
         {
-            if(chk_KH.Checked == true)
-            {
-                chk_NCC.Checked = chk_NV.Checked = false;
-            } 
+            //if(chk_KH.Checked == true)
+            //{
+            //    chk_NCC.Checked = chk_NV.Checked = false;
+            //} 
         }
 
         private void chk_NCC_CheckedChanged(object sender, EventArgs e)
         {
-            if (chk_NCC.Checked == true)
-            {
-                chk_KH.Checked = chk_NV.Checked = false;
-            }
+            //if (chk_NCC.Checked == true)
+            //{
+            //    chk_KH.Checked = chk_NV.Checked = false;
+            //}
         }
 
         private void chk_NV_CheckedChanged(object sender, EventArgs e)
@@ -321,7 +321,7 @@ namespace QuangProject
         {
             if (chk_NCC_BC.Checked == true)
             {
-                chk_KH_BC.Checked = chk_NV_BC.Checked = false;
+                chk_NV_BC.Checked = false;
             }
             if (chk_SuDungKH_BC.Checked == true)
             {
@@ -345,7 +345,7 @@ namespace QuangProject
         {
             if (chk_KH_BC.Checked == true)
             {
-                chk_NCC_BC.Checked = chk_NV_BC.Checked = false;
+                chk_NV_BC.Checked = false;
             }
             if (chk_SuDungKH_BC.Checked == true)
             {
